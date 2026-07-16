@@ -1,0 +1,775 @@
+{
+  "surface": "report",
+  "manifest": {
+    "version": 1,
+    "surface": "report",
+    "title": "GEOROC 玄武质岩构造环境判别：数据质量与基线验证",
+    "description": "ARC–CIB–OIB 三分类中期数据质量、泛化、偏倚和可解释性技术报告。",
+    "generatedAt": "2026-07-15T04:19:10Z",
+    "cards": [
+      {
+        "id": "cohort_card",
+        "dataset": "headline",
+        "sourceId": "headline_snapshot",
+        "description": "严格处理队列及宽特征建模子集。",
+        "metrics": [
+          {
+            "label": "建模队列",
+            "field": "model_ready_rows",
+            "format": "number"
+          },
+          {
+            "label": "严格处理队列",
+            "field": "processed_rows",
+            "format": "number"
+          }
+        ]
+      },
+      {
+        "id": "citation_card",
+        "dataset": "headline",
+        "sourceId": "headline_snapshot",
+        "description": "平衡随机森林，Citation-ID 集合五折分组验证。",
+        "metrics": [
+          {
+            "label": "文献分组 macro-F1",
+            "field": "citation_macro_f1",
+            "format": "percent"
+          }
+        ]
+      },
+      {
+        "id": "location_card",
+        "dataset": "headline",
+        "sourceId": "headline_snapshot",
+        "description": "平衡随机森林，一级地区五折留出验证。",
+        "metrics": [
+          {
+            "label": "地区留出 macro-F1",
+            "field": "location_macro_f1",
+            "format": "percent"
+          }
+        ]
+      },
+      {
+        "id": "oib_card",
+        "dataset": "headline",
+        "sourceId": "headline_snapshot",
+        "description": "OIB 在一级地区留出验证中的召回率。",
+        "metrics": [
+          {
+            "label": "OIB 地区留出召回率",
+            "field": "oib_location_recall",
+            "format": "percent"
+          }
+        ]
+      }
+    ],
+    "charts": [
+      {
+        "id": "validation_performance",
+        "title": "不同验证策略下的随机森林性能",
+        "subtitle": "从随机分层到地区留出，macro-F1 明显下降。",
+        "type": "bar",
+        "dataset": "performance",
+        "sourceId": "performance_snapshot",
+        "valueFormat": "percent",
+        "encodings": {
+          "x": {
+            "field": "strategy",
+            "type": "nominal",
+            "label": "验证策略"
+          },
+          "y": {
+            "field": "macro_f1",
+            "type": "quantitative",
+            "label": "Macro-F1"
+          },
+          "tooltip": [
+            {
+              "field": "accuracy",
+              "type": "quantitative",
+              "label": "准确率",
+              "format": "percent"
+            },
+            {
+              "field": "balanced_accuracy",
+              "type": "quantitative",
+              "label": "平衡准确率",
+              "format": "percent"
+            }
+          ]
+        }
+      },
+      {
+        "id": "class_recall",
+        "title": "文献分组与地区留出的分类召回率",
+        "subtitle": "OIB 的跨地区召回率是主要失败模式。",
+        "type": "bar",
+        "dataset": "class_recall",
+        "sourceId": "class_recall_snapshot",
+        "valueFormat": "percent",
+        "encodings": {
+          "x": {
+            "field": "label",
+            "type": "nominal",
+            "label": "类别"
+          },
+          "y": {
+            "field": "recall",
+            "type": "quantitative",
+            "label": "召回率"
+          },
+          "color": {
+            "field": "strategy",
+            "type": "nominal",
+            "label": "验证策略"
+          }
+        }
+      },
+      {
+        "id": "sensitivity",
+        "title": "特征值、缺失指示与不活动特征敏感性",
+        "subtitle": "显式缺失指示不改善宽特征模型；仅缺失模式较弱。",
+        "type": "bar",
+        "dataset": "sensitivity",
+        "sourceId": "sensitivity_snapshot",
+        "valueFormat": "percent",
+        "encodings": {
+          "x": {
+            "field": "input",
+            "type": "nominal",
+            "label": "输入方案"
+          },
+          "y": {
+            "field": "macro_f1_mean",
+            "type": "quantitative",
+            "label": "平均 macro-F1"
+          },
+          "color": {
+            "field": "strategy",
+            "type": "nominal",
+            "label": "验证策略"
+          },
+          "tooltip": [
+            {
+              "field": "macro_f1_sd",
+              "type": "quantitative",
+              "label": "折间标准差"
+            }
+          ]
+        }
+      },
+      {
+        "id": "importance",
+        "title": "Citation-ID 分组留出置换重要性",
+        "subtitle": "TiO₂、Nb、Al₂O₃、CaO 和 Sr 对平衡准确率的贡献最高。",
+        "type": "bar",
+        "dataset": "importance",
+        "sourceId": "importance_snapshot",
+        "encodings": {
+          "x": {
+            "field": "feature",
+            "type": "nominal",
+            "label": "特征"
+          },
+          "y": {
+            "field": "importance_mean",
+            "type": "quantitative",
+            "label": "置换后平衡准确率降幅"
+          },
+          "tooltip": [
+            {
+              "field": "importance_sd_between_folds",
+              "type": "quantitative",
+              "label": "折间标准差"
+            }
+          ]
+        }
+      }
+    ],
+    "tables": [
+      {
+        "id": "shap_table",
+        "title": "全局 SHAP 特征排名",
+        "subtitle": "全队列描述性随机森林，500 条分层抽样。",
+        "dataset": "shap",
+        "sourceId": "shap_snapshot",
+        "defaultSort": {
+          "field": "rank",
+          "direction": "asc"
+        },
+        "columns": [
+          {
+            "field": "rank",
+            "label": "排名",
+            "format": "number"
+          },
+          {
+            "field": "feature",
+            "label": "特征",
+            "type": "text"
+          },
+          {
+            "field": "mean_abs_shap_over_classes",
+            "label": "平均绝对 SHAP",
+            "format": "number"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "validated_report",
+        "label": "数据质量与基线验证报告",
+        "path": "reports/data_quality_and_baseline_validation.md"
+      },
+      {
+        "id": "headline_snapshot",
+        "label": "队列与头部指标快照",
+        "path": "reports/phase1_report_snapshot.sqlite",
+        "query": {
+          "engine": "sqlite",
+          "language": "sql",
+          "sql": "SELECT processed_rows, model_ready_rows, citation_macro_f1, location_macro_f1, oib_location_recall FROM headline",
+          "description": "从已验证的报告快照表 headline 读取展示数据。",
+          "executed_at": "2026-07-15T04:19:10Z",
+          "tables_used": [
+            "headline"
+          ]
+        }
+      },
+      {
+        "id": "performance_snapshot",
+        "label": "验证策略性能快照",
+        "path": "reports/phase1_report_snapshot.sqlite",
+        "query": {
+          "engine": "sqlite",
+          "language": "sql",
+          "sql": "SELECT strategy, accuracy, balanced_accuracy, macro_f1 FROM performance ORDER BY strategy_order",
+          "description": "从已验证的报告快照表 performance 读取展示数据。",
+          "executed_at": "2026-07-15T04:19:10Z",
+          "tables_used": [
+            "performance"
+          ]
+        }
+      },
+      {
+        "id": "class_recall_snapshot",
+        "label": "分类召回率快照",
+        "path": "reports/phase1_report_snapshot.sqlite",
+        "query": {
+          "engine": "sqlite",
+          "language": "sql",
+          "sql": "SELECT strategy, label, recall FROM class_recall ORDER BY strategy, label",
+          "description": "从已验证的报告快照表 class_recall 读取展示数据。",
+          "executed_at": "2026-07-15T04:19:10Z",
+          "tables_used": [
+            "class_recall"
+          ]
+        }
+      },
+      {
+        "id": "sensitivity_snapshot",
+        "label": "特征偏倚敏感性快照",
+        "path": "reports/phase1_report_snapshot.sqlite",
+        "query": {
+          "engine": "sqlite",
+          "language": "sql",
+          "sql": "SELECT input, strategy, macro_f1_mean, macro_f1_sd FROM sensitivity ORDER BY input, strategy",
+          "description": "从已验证的报告快照表 sensitivity 读取展示数据。",
+          "executed_at": "2026-07-15T04:19:10Z",
+          "tables_used": [
+            "sensitivity"
+          ]
+        }
+      },
+      {
+        "id": "importance_snapshot",
+        "label": "留出集置换重要性快照",
+        "path": "reports/phase1_report_snapshot.sqlite",
+        "query": {
+          "engine": "sqlite",
+          "language": "sql",
+          "sql": "SELECT feature, importance_mean, importance_sd_between_folds FROM importance ORDER BY importance_mean DESC",
+          "description": "从已验证的报告快照表 importance 读取展示数据。",
+          "executed_at": "2026-07-15T04:19:10Z",
+          "tables_used": [
+            "importance"
+          ]
+        }
+      },
+      {
+        "id": "shap_snapshot",
+        "label": "全局 SHAP 快照",
+        "path": "reports/phase1_report_snapshot.sqlite",
+        "query": {
+          "engine": "sqlite",
+          "language": "sql",
+          "sql": "SELECT rank, feature, mean_abs_shap_over_classes FROM shap ORDER BY rank",
+          "description": "从已验证的报告快照表 shap 读取展示数据。",
+          "executed_at": "2026-07-15T04:19:10Z",
+          "tables_used": [
+            "shap"
+          ]
+        }
+      }
+    ],
+    "blocks": [
+      {
+        "id": "title",
+        "type": "markdown",
+        "body": "# GEOROC 玄武质岩构造环境判别：数据质量与基线验证"
+      },
+      {
+        "id": "technical_summary",
+        "type": "markdown",
+        "sourceId": "validated_report",
+        "body": "## 技术摘要\n\n**当前分析可作为可信的中期证据，但必须附带外部有效性限制。** 54,012 条 GEOROC 宽特征样品上，平衡随机森林的 macro-F1 由随机分层的 0.861 降至文献分组的 0.786 和地区留出的 0.654。PetDB MORB 已完成样品级质控，得到 3,650 个宽特征样品；但现有设计中类别与数据库来源完全混杂，因此直接池化不能作为来源稳健的最终四分类结论。"
+      },
+      {
+        "id": "metrics",
+        "type": "metric-strip",
+        "cardIds": [
+          "cohort_card",
+          "citation_card",
+          "location_card",
+          "oib_card"
+        ]
+      },
+      {
+        "id": "generalization_text",
+        "type": "markdown",
+        "sourceId": "performance_snapshot",
+        "body": "## 随机切分高估了跨文献与跨地区泛化\n\n验证策略越接近新文献、新地区的实际使用条件，性能越低。论文的主结果应使用文献分组和地区留出验证；随机分层只作为泄漏偏差对照。"
+      },
+      {
+        "id": "performance_chart",
+        "type": "chart",
+        "chartId": "validation_performance"
+      },
+      {
+        "id": "class_text",
+        "type": "markdown",
+        "sourceId": "class_recall_snapshot",
+        "body": "## OIB 是地区外推的主要失败模式\n\nOIB 地区留出召回率仅为 0.373，远低于其文献分组召回率 0.694。这可能反映 OIB 端元多样性、地区取样不均与板内火山岩连续过渡，不应简化为单一元素比值的失效。"
+      },
+      {
+        "id": "class_chart",
+        "type": "chart",
+        "chartId": "class_recall"
+      },
+      {
+        "id": "bias_text",
+        "type": "markdown",
+        "sourceId": "sensitivity_snapshot",
+        "body": "## 测量缺失模式存在信号，但不是当前性能的主要来源\n\n仅使用缺失指示时，文献分组和地区留出的 macro-F1 仅为 0.289 和 0.258；将缺失指示显式加入宽特征值没有改善结果。主模型应保持值模型，缺失模式作为负对照。"
+      },
+      {
+        "id": "sensitivity_chart",
+        "type": "chart",
+        "chartId": "sensitivity"
+      },
+      {
+        "id": "importance_text",
+        "type": "markdown",
+        "sourceId": "importance_snapshot",
+        "body": "## TiO₂ 和 Nb 是最稳定的判别轴，但不能单独证明成因\n\n按 Citation-ID 集合分组的留出数据上，TiO₂、Nb、Al₂O₃、CaO 和 Sr 具有最高置换重要性。其中低 Ti–Nb 对 ARC、高 Ti–Nb 对 OIB 的模型关联与常见地球化学认识相容，但相关特征、分离结晶和区域数据结构会影响排名。"
+      },
+      {
+        "id": "importance_chart",
+        "type": "chart",
+        "chartId": "importance"
+      },
+      {
+        "id": "scope_text",
+        "type": "markdown",
+        "sourceId": "validated_report",
+        "body": "## 范围、数据与指标定义\n\n数据来自 GEOROC Rock Types 中全岩火山岩、岩石名含 basalt、SiO₂ 为 40–55 wt%且完整主量总量为 85–105 wt% 的记录。ARC 是宽义收敛边缘，CIB 合并大陆溢流玄武岩、裂谷和其他板内火山岩，OIB 来自洋岛。Macro-F1 是三类 F1 的等权平均；召回率是某实际类别中被正确识别的比例。"
+      },
+      {
+        "id": "method_text",
+        "type": "markdown",
+        "sourceId": "validated_report",
+        "body": "## 模型规格与验证设计\n\n22 个宽特征经 log10 变换和训练折内中位数填补后输入平衡随机森林。位置、引用、岩石名、样品名、文件名和标签不得作为特征。四种五折验证策略分别量化逐样品、跨文献、保守引用重叠和跨地区泛化。置换重要性在每折留出集上计算；SHAP 作为全队列描述性模型诊断。"
+      },
+      {
+        "id": "shap_text",
+        "type": "markdown",
+        "sourceId": "shap_snapshot",
+        "body": "## SHAP 排名与留出置换结果大体一致\n\nTiO₂、Al₂O₃ 和 Nb 位于全局平均绝对 SHAP 的前三位。SHAP 排名使用全队列拟合的描述性模型，不代替留出数据置换重要性，也不用于声称因果机制。"
+      },
+      {
+        "id": "shap_table_block",
+        "type": "table",
+        "tableId": "shap_table"
+      },
+      {
+        "id": "limitations",
+        "type": "markdown",
+        "sourceId": "validated_report",
+        "body": "## 限制、不确定性与稳健性\n\n- **来源–类别完全混杂：** PetDB 目前只贡献 MORB，GEOROC 队列只贡献 ARC/CIB/OIB，直接池化分数不是来源稳健性能。\n- **改造元数据不完整：** 多数 PetDB 样品没有明确改造标记，已标记严重改造作为敏感性队列。\n- **宽标签子结构：** ARC 与 CIB 都不是成因纯端元。\n- **引用快照错位：** 2024-12 引用表中尚未解析 86 个 2026-06 岩石文件已使用的 Citation-ID。\n- **解释性边界：** 相关元素会分摊重要性，SHAP 正负方向是关联而非因果。"
+      },
+      {
+        "id": "next_steps",
+        "type": "markdown",
+        "sourceId": "validated_report",
+        "body": "## 推荐的下一步\n\n1. 按与 MORB 相同的导出和质控合同获取 PetDB ARC/OIB/CIB 对照，或加入独立非 PetDB MORB。\n2. 打破来源–类别完全对应后，在相同特征合同下重建 ARC–CIB–OIB–MORB 四分类，并按数据源、文献和地区分组验证。\n3. 对宽义 ARC/CIB 子类、特征比值、异常值与样品权重执行预注册式敏感性分析。\n4. 用独立发表基准数据评估校准、类别边界和地区外推，再锁定论文主结果。"
+      },
+      {
+        "id": "questions",
+        "type": "markdown",
+        "body": "## 进一步科学问题\n\n- OIB 地区外推失败主要来自源区多样性、分异程度，还是地区/文献测量偏差？\n- 引入 MORB 后，Ti–Nb 轴的判别力会保持，还是被 MORB–OIB 重叠显著削弱？\n- 不活动元素特征的性能损失，能否通过物理约束比值或分层模型部分恢复？"
+      }
+    ]
+  },
+  "snapshot": {
+    "version": 1,
+    "generatedAt": "2026-07-15T04:19:10Z",
+    "status": "ready",
+    "datasets": {
+      "headline": [
+        {
+          "processed_rows": 62113,
+          "model_ready_rows": 54012,
+          "citation_macro_f1": 0.7857002773,
+          "location_macro_f1": 0.653747161,
+          "oib_location_recall": 0.3728339855
+        }
+      ],
+      "performance": [
+        {
+          "strategy": "随机分层",
+          "accuracy": 0.8738243353,
+          "balanced_accuracy": 0.8547457482,
+          "macro_f1": 0.8607838868
+        },
+        {
+          "strategy": "文献分组",
+          "accuracy": 0.8145782419,
+          "balanced_accuracy": 0.7767908195,
+          "macro_f1": 0.7857002773
+        },
+        {
+          "strategy": "引用重叠组件",
+          "accuracy": 0.7970821299,
+          "balanced_accuracy": 0.7284766092,
+          "macro_f1": 0.7471330407
+        },
+        {
+          "strategy": "地区留出",
+          "accuracy": 0.7387802711,
+          "balanced_accuracy": 0.6349519495,
+          "macro_f1": 0.653747161
+        }
+      ],
+      "class_recall": [
+        {
+          "strategy": "地区留出",
+          "label": "ARC",
+          "recall": 0.7105220624
+        },
+        {
+          "strategy": "地区留出",
+          "label": "CIB",
+          "recall": 0.8214998006
+        },
+        {
+          "strategy": "地区留出",
+          "label": "OIB",
+          "recall": 0.3728339855
+        },
+        {
+          "strategy": "文献分组",
+          "label": "ARC",
+          "recall": 0.7767361672
+        },
+        {
+          "strategy": "文献分组",
+          "label": "CIB",
+          "recall": 0.8593936976
+        },
+        {
+          "strategy": "文献分组",
+          "label": "OIB",
+          "recall": 0.6942425936
+        }
+      ],
+      "sensitivity": [
+        {
+          "input": "不活动特征值",
+          "strategy": "地区留出",
+          "macro_f1_mean": 0.5834162294,
+          "macro_f1_sd": 0.0487132508
+        },
+        {
+          "input": "不活动特征值",
+          "strategy": "文献分组",
+          "macro_f1_mean": 0.7304486129,
+          "macro_f1_sd": 0.0159466344
+        },
+        {
+          "input": "仅缺失模式",
+          "strategy": "地区留出",
+          "macro_f1_mean": 0.2575851574,
+          "macro_f1_sd": 0.0415289583
+        },
+        {
+          "input": "仅缺失模式",
+          "strategy": "文献分组",
+          "macro_f1_mean": 0.2892785507,
+          "macro_f1_sd": 0.0342184691
+        },
+        {
+          "input": "宽特征+缺失指示",
+          "strategy": "地区留出",
+          "macro_f1_mean": 0.6392359754,
+          "macro_f1_sd": 0.0580522606
+        },
+        {
+          "input": "宽特征+缺失指示",
+          "strategy": "文献分组",
+          "macro_f1_mean": 0.7817804162,
+          "macro_f1_sd": 0.0118523533
+        },
+        {
+          "input": "宽特征值",
+          "strategy": "地区留出",
+          "macro_f1_mean": 0.6400809072,
+          "macro_f1_sd": 0.0588124128
+        },
+        {
+          "input": "宽特征值",
+          "strategy": "文献分组",
+          "macro_f1_mean": 0.7832912677,
+          "macro_f1_sd": 0.0102033361
+        }
+      ],
+      "importance": [
+        {
+          "feature": "TIO2",
+          "importance_mean": 0.1586407785,
+          "importance_sd_between_folds": 0.0149687149
+        },
+        {
+          "feature": "NB",
+          "importance_mean": 0.1021617142,
+          "importance_sd_between_folds": 0.0067788511
+        },
+        {
+          "feature": "AL2O3",
+          "importance_mean": 0.0781429331,
+          "importance_sd_between_folds": 0.006610198
+        },
+        {
+          "feature": "CAO",
+          "importance_mean": 0.0714226296,
+          "importance_sd_between_folds": 0.0100208833
+        },
+        {
+          "feature": "SR",
+          "importance_mean": 0.0584405728,
+          "importance_sd_between_folds": 0.0093520667
+        },
+        {
+          "feature": "MGO",
+          "importance_mean": 0.0518465933,
+          "importance_sd_between_folds": 0.0118649067
+        },
+        {
+          "feature": "SIO2",
+          "importance_mean": 0.0495115623,
+          "importance_sd_between_folds": 0.0063743953
+        },
+        {
+          "feature": "NA2O",
+          "importance_mean": 0.0463376839,
+          "importance_sd_between_folds": 0.006722354
+        },
+        {
+          "feature": "ZR",
+          "importance_mean": 0.0431848959,
+          "importance_sd_between_folds": 0.0034869838
+        },
+        {
+          "feature": "K2O",
+          "importance_mean": 0.0380544846,
+          "importance_sd_between_folds": 0.0064702314
+        },
+        {
+          "feature": "NI",
+          "importance_mean": 0.0251282396,
+          "importance_sd_between_folds": 0.0048246507
+        },
+        {
+          "feature": "P2O5",
+          "importance_mean": 0.0211073875,
+          "importance_sd_between_folds": 0.0009819192
+        }
+      ],
+      "shap": [
+        {
+          "rank": 1,
+          "feature": "TIO2",
+          "mean_abs_shap_over_classes": 0.0659826787
+        },
+        {
+          "rank": 2,
+          "feature": "AL2O3",
+          "mean_abs_shap_over_classes": 0.0590991461
+        },
+        {
+          "rank": 3,
+          "feature": "NB",
+          "mean_abs_shap_over_classes": 0.0465351446
+        },
+        {
+          "rank": 4,
+          "feature": "CAO",
+          "mean_abs_shap_over_classes": 0.0326788917
+        },
+        {
+          "rank": 5,
+          "feature": "SIO2",
+          "mean_abs_shap_over_classes": 0.0271724591
+        },
+        {
+          "rank": 6,
+          "feature": "FEOT",
+          "mean_abs_shap_over_classes": 0.0221322163
+        },
+        {
+          "rank": 7,
+          "feature": "SR",
+          "mean_abs_shap_over_classes": 0.0194828879
+        },
+        {
+          "rank": 8,
+          "feature": "MGO",
+          "mean_abs_shap_over_classes": 0.0187579681
+        },
+        {
+          "rank": 9,
+          "feature": "NA2O",
+          "mean_abs_shap_over_classes": 0.0172735826
+        },
+        {
+          "rank": 10,
+          "feature": "ZR",
+          "mean_abs_shap_over_classes": 0.0172358728
+        },
+        {
+          "rank": 11,
+          "feature": "NI",
+          "mean_abs_shap_over_classes": 0.0171812975
+        },
+        {
+          "rank": 12,
+          "feature": "K2O",
+          "mean_abs_shap_over_classes": 0.0165709248
+        }
+      ]
+    },
+    "accessIssues": []
+  },
+  "sources": [
+    {
+      "id": "validated_report",
+      "label": "数据质量与基线验证报告",
+      "path": "reports/data_quality_and_baseline_validation.md"
+    },
+    {
+      "id": "headline_snapshot",
+      "label": "队列与头部指标快照",
+      "path": "reports/phase1_report_snapshot.sqlite",
+      "query": {
+        "engine": "sqlite",
+        "language": "sql",
+        "sql": "SELECT processed_rows, model_ready_rows, citation_macro_f1, location_macro_f1, oib_location_recall FROM headline",
+        "description": "从已验证的报告快照表 headline 读取展示数据。",
+        "executed_at": "2026-07-15T04:19:10Z",
+        "tables_used": [
+          "headline"
+        ]
+      }
+    },
+    {
+      "id": "performance_snapshot",
+      "label": "验证策略性能快照",
+      "path": "reports/phase1_report_snapshot.sqlite",
+      "query": {
+        "engine": "sqlite",
+        "language": "sql",
+        "sql": "SELECT strategy, accuracy, balanced_accuracy, macro_f1 FROM performance ORDER BY strategy_order",
+        "description": "从已验证的报告快照表 performance 读取展示数据。",
+        "executed_at": "2026-07-15T04:19:10Z",
+        "tables_used": [
+          "performance"
+        ]
+      }
+    },
+    {
+      "id": "class_recall_snapshot",
+      "label": "分类召回率快照",
+      "path": "reports/phase1_report_snapshot.sqlite",
+      "query": {
+        "engine": "sqlite",
+        "language": "sql",
+        "sql": "SELECT strategy, label, recall FROM class_recall ORDER BY strategy, label",
+        "description": "从已验证的报告快照表 class_recall 读取展示数据。",
+        "executed_at": "2026-07-15T04:19:10Z",
+        "tables_used": [
+          "class_recall"
+        ]
+      }
+    },
+    {
+      "id": "sensitivity_snapshot",
+      "label": "特征偏倚敏感性快照",
+      "path": "reports/phase1_report_snapshot.sqlite",
+      "query": {
+        "engine": "sqlite",
+        "language": "sql",
+        "sql": "SELECT input, strategy, macro_f1_mean, macro_f1_sd FROM sensitivity ORDER BY input, strategy",
+        "description": "从已验证的报告快照表 sensitivity 读取展示数据。",
+        "executed_at": "2026-07-15T04:19:10Z",
+        "tables_used": [
+          "sensitivity"
+        ]
+      }
+    },
+    {
+      "id": "importance_snapshot",
+      "label": "留出集置换重要性快照",
+      "path": "reports/phase1_report_snapshot.sqlite",
+      "query": {
+        "engine": "sqlite",
+        "language": "sql",
+        "sql": "SELECT feature, importance_mean, importance_sd_between_folds FROM importance ORDER BY importance_mean DESC",
+        "description": "从已验证的报告快照表 importance 读取展示数据。",
+        "executed_at": "2026-07-15T04:19:10Z",
+        "tables_used": [
+          "importance"
+        ]
+      }
+    },
+    {
+      "id": "shap_snapshot",
+      "label": "全局 SHAP 快照",
+      "path": "reports/phase1_report_snapshot.sqlite",
+      "query": {
+        "engine": "sqlite",
+        "language": "sql",
+        "sql": "SELECT rank, feature, mean_abs_shap_over_classes FROM shap ORDER BY rank",
+        "description": "从已验证的报告快照表 shap 读取展示数据。",
+        "executed_at": "2026-07-15T04:19:10Z",
+        "tables_used": [
+          "shap"
+        ]
+      }
+    }
+  ],
+  "package_info": {
+    "originUrl": "artifact://georoc-primary3-validation"
+  }
+}
