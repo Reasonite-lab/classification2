@@ -1,0 +1,46 @@
+{
+  "dataset": "data\\processed\\georoc_primary3_v0_1.parquet",
+  "rows": 54012,
+  "features": [
+    "SIO2(WT%)",
+    "TIO2(WT%)",
+    "AL2O3(WT%)",
+    "FEOT(WT%)",
+    "CAO(WT%)",
+    "MGO(WT%)",
+    "MNO(WT%)",
+    "K2O(WT%)",
+    "NA2O(WT%)",
+    "P2O5(WT%)",
+    "V(PPM)",
+    "CR(PPM)",
+    "NI(PPM)",
+    "RB(PPM)",
+    "SR(PPM)",
+    "Y(PPM)",
+    "ZR(PPM)",
+    "NB(PPM)",
+    "LA(PPM)",
+    "CE(PPM)",
+    "ND(PPM)",
+    "TH(PPM)"
+  ],
+  "labels": [
+    "ARC",
+    "CIB",
+    "OIB"
+  ],
+  "random_seed": 20260714,
+  "models": [
+    "dummy_prior",
+    "logistic_balanced",
+    "random_forest_balanced"
+  ],
+  "cv_strategies": [
+    "random_stratified",
+    "citation_set_grouped",
+    "location_root_grouped",
+    "citation_overlap_conservative"
+  ],
+  "interpretation": "Provisional baseline only; MORB is not present and hyperparameters are not tuned."
+}

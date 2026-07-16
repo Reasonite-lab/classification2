@@ -1,0 +1,75 @@
+{
+  "external_n": 39,
+  "logistic_intercept_cib_minus_oib": -0.5072487352478181,
+  "logistic_median_sample_total_cib_minus_oib_logit": 6.71168053988439,
+  "top_contributions_toward_cib": [
+    {
+      "transformed_feature": "missingindicator_TH(PPM)",
+      "contribution_to_cib_minus_oib_logit": 4.1885899005843905
+    },
+    {
+      "transformed_feature": "TH(PPM)",
+      "contribution_to_cib_minus_oib_logit": 3.939965891434942
+    },
+    {
+      "transformed_feature": "K2O(WT%)",
+      "contribution_to_cib_minus_oib_logit": 2.184351977434751
+    },
+    {
+      "transformed_feature": "SR(PPM)",
+      "contribution_to_cib_minus_oib_logit": 1.9334711107576632
+    },
+    {
+      "transformed_feature": "LA(PPM)",
+      "contribution_to_cib_minus_oib_logit": 0.7540564576068426
+    },
+    {
+      "transformed_feature": "SIO2(WT%)",
+      "contribution_to_cib_minus_oib_logit": 0.5173130394560117
+    },
+    {
+      "transformed_feature": "FEOT(WT%)",
+      "contribution_to_cib_minus_oib_logit": 0.5086155486530475
+    },
+    {
+      "transformed_feature": "missingindicator_CE(PPM)",
+      "contribution_to_cib_minus_oib_logit": 0.4227699999642314
+    }
+  ],
+  "top_contributions_toward_oib": [
+    {
+      "transformed_feature": "CE(PPM)",
+      "contribution_to_cib_minus_oib_logit": -1.8171693060277438
+    },
+    {
+      "transformed_feature": "ZR(PPM)",
+      "contribution_to_cib_minus_oib_logit": -1.2762300526758996
+    },
+    {
+      "transformed_feature": "RB(PPM)",
+      "contribution_to_cib_minus_oib_logit": -0.9126595240474363
+    },
+    {
+      "transformed_feature": "missingindicator_ND(PPM)",
+      "contribution_to_cib_minus_oib_logit": -0.8929881563201363
+    },
+    {
+      "transformed_feature": "missingindicator_NI(PPM)",
+      "contribution_to_cib_minus_oib_logit": -0.7307478513023139
+    },
+    {
+      "transformed_feature": "NA2O(WT%)",
+      "contribution_to_cib_minus_oib_logit": -0.6102462570362606
+    },
+    {
+      "transformed_feature": "missingindicator_RB(PPM)",
+      "contribution_to_cib_minus_oib_logit": -0.3330490505587321
+    },
+    {
+      "transformed_feature": "missingindicator_LA(PPM)",
+      "contribution_to_cib_minus_oib_logit": -0.29166396573439884
+    }
+  ],
+  "interpretation_policy": "Contributions diagnose the fitted PetDB classifier, not causal geological effects. Geological interpretation requires concordance with process ratios and eruption-stage behavior.",
+  "structural_missingness_warning": "This diagnostic intentionally fits the 22-variable contract to reveal database-specific missingness leakage. Scientific external scoring uses the common18 contract, which excludes V, Cr, Ni and Th."
+}

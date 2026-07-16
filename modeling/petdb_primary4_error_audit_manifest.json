@@ -1,0 +1,41 @@
+{
+  "cohort_rows": 6148,
+  "features": [
+    "SIO2(WT%)",
+    "TIO2(WT%)",
+    "AL2O3(WT%)",
+    "FEOT(WT%)",
+    "CAO(WT%)",
+    "MGO(WT%)",
+    "MNO(WT%)",
+    "K2O(WT%)",
+    "NA2O(WT%)",
+    "P2O5(WT%)",
+    "V(PPM)",
+    "CR(PPM)",
+    "NI(PPM)",
+    "RB(PPM)",
+    "SR(PPM)",
+    "Y(PPM)",
+    "ZR(PPM)",
+    "NB(PPM)",
+    "LA(PPM)",
+    "CE(PPM)",
+    "ND(PPM)"
+  ],
+  "strategies": {
+    "citation_overlap_conservative": "citation_overlap_component",
+    "location_root_grouped": "location_root"
+  },
+  "prediction_rows": 12296,
+  "errors_by_strategy": {
+    "citation_overlap_conservative": 928,
+    "location_root_grouped": 1155
+  },
+  "error_rates_by_strategy": {
+    "citation_overlap_conservative": 0.1509433962264151,
+    "location_root_grouped": 0.18786597267404034
+  },
+  "resemblance_definition": "For each observed log10 feature, absolute distance to actual- and predicted-class medians is scaled by the corresponding class MAD. Positive delta means closer to the predicted-class median than to the actual-class median. This is descriptive, not SHAP.",
+  "scope_caveat": "OOF error audit for the primary common-21 random forest. Citation/location metadata and class-median resemblance are for tracing and geological review, not causal attribution."
+}

@@ -1,0 +1,83 @@
+{
+  "georoc_rows": 54012,
+  "petdb_rows": 2498,
+  "georoc_class_counts": {
+    "CIB": 30084,
+    "ARC": 18561,
+    "OIB": 5367
+  },
+  "petdb_class_counts": {
+    "OIB": 1281,
+    "ARC": 754,
+    "CIB": 463
+  },
+  "georoc_ontology_variants": {
+    "broad_cib": {
+      "rows": 54012,
+      "class_counts": {
+        "CIB": 30084,
+        "ARC": 18561,
+        "OIB": 5367
+      }
+    },
+    "rift_aligned_cib": {
+      "rows": 27349,
+      "class_counts": {
+        "ARC": 18561,
+        "OIB": 5367,
+        "CIB": 3421
+      }
+    }
+  },
+  "configured_features": [
+    "SIO2(WT%)",
+    "TIO2(WT%)",
+    "AL2O3(WT%)",
+    "FEOT(WT%)",
+    "CAO(WT%)",
+    "MGO(WT%)",
+    "MNO(WT%)",
+    "K2O(WT%)",
+    "NA2O(WT%)",
+    "P2O5(WT%)",
+    "V(PPM)",
+    "CR(PPM)",
+    "NI(PPM)",
+    "RB(PPM)",
+    "SR(PPM)",
+    "Y(PPM)",
+    "ZR(PPM)",
+    "NB(PPM)",
+    "LA(PPM)",
+    "CE(PPM)",
+    "ND(PPM)",
+    "TH(PPM)"
+  ],
+  "shared_features": [
+    "SIO2(WT%)",
+    "TIO2(WT%)",
+    "AL2O3(WT%)",
+    "FEOT(WT%)",
+    "CAO(WT%)",
+    "MGO(WT%)",
+    "MNO(WT%)",
+    "K2O(WT%)",
+    "NA2O(WT%)",
+    "P2O5(WT%)",
+    "V(PPM)",
+    "CR(PPM)",
+    "NI(PPM)",
+    "RB(PPM)",
+    "SR(PPM)",
+    "Y(PPM)",
+    "ZR(PPM)",
+    "NB(PPM)",
+    "LA(PPM)",
+    "CE(PPM)",
+    "ND(PPM)"
+  ],
+  "excluded_structurally_absent_features": [
+    "TH(PPM)"
+  ],
+  "label_ontology_caveat": "GEOROC CIB combines intraplate volcanics, continental flood basalt, and rift volcanics, whereas the PetDB CIB export is restricted to CONTINENTAL RIFT. The two transfer directions are database/ontology-shift diagnostics, not final external performance claims."
+}

@@ -1,0 +1,40 @@
+{
+  "dataset": "data\\processed\\petdb_primary4_v0_1.parquet",
+  "cohort_rows": 6148,
+  "labels": [
+    "ARC",
+    "CIB",
+    "MORB",
+    "OIB"
+  ],
+  "features": [
+    "SIO2(WT%)",
+    "TIO2(WT%)",
+    "AL2O3(WT%)",
+    "FEOT(WT%)",
+    "CAO(WT%)",
+    "MGO(WT%)",
+    "MNO(WT%)",
+    "K2O(WT%)",
+    "NA2O(WT%)",
+    "P2O5(WT%)",
+    "V(PPM)",
+    "CR(PPM)",
+    "NI(PPM)",
+    "RB(PPM)",
+    "SR(PPM)",
+    "Y(PPM)",
+    "ZR(PPM)",
+    "NB(PPM)",
+    "LA(PPM)",
+    "CE(PPM)",
+    "ND(PPM)"
+  ],
+  "excluded_structurally_absent_features": [
+    "TH(PPM)"
+  ],
+  "permutation_validation": "five-fold citation-overlap-component grouped; all held-out rows; six repeats; balanced-accuracy scoring",
+  "shap_model": "full-cohort descriptive balanced random forest, 160 trees",
+  "shap_sample_rows": 800,
+  "caveat": "Permutation importance is leakage-aware but correlated features share or mask importance. SHAP is descriptive full-cohort attribution and is not causal."
+}

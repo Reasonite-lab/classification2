@@ -1,0 +1,43 @@
+{
+  "training_dataset": "data/processed/petdb_primary4_v0_1.parquet",
+  "training_rows": 6148,
+  "training_class_counts": {
+    "MORB": 3650,
+    "OIB": 1281,
+    "ARC": 754,
+    "CIB": 463
+  },
+  "external_dataset": "data/processed/figshare_morb_external_v0_1.parquet",
+  "external_rows": 44,
+  "strict_swir_rows": 36,
+  "features": [
+    "SIO2(WT%)",
+    "TIO2(WT%)",
+    "AL2O3(WT%)",
+    "FEOT(WT%)",
+    "CAO(WT%)",
+    "MGO(WT%)",
+    "MNO(WT%)",
+    "K2O(WT%)",
+    "NA2O(WT%)",
+    "P2O5(WT%)",
+    "RB(PPM)",
+    "SR(PPM)",
+    "Y(PPM)",
+    "ZR(PPM)",
+    "NB(PPM)",
+    "LA(PPM)",
+    "CE(PPM)",
+    "ND(PPM)"
+  ],
+  "models": [
+    "logistic_balanced",
+    "random_forest_balanced"
+  ],
+  "domain_check": "For each external sample, count observed feature values below the PetDB training 1st percentile or above the 99th percentile in log10 space.",
+  "provenance_policy": {
+    "East Pacific Rise": "Sensitivity only: workbook says these data are from Li et al. (2019).",
+    "Southwest Indian Ridge": "Strict provisional cohort: no exact normalized PetDB sample-name overlap, but the repository record has no linked journal DOI."
+  },
+  "scope_caveat": "This is a one-class, one-study MORB province test. It estimates MORB recall and confidence, not external four-class macro-performance. The 36 SWIR rows are not 36 independent geological provinces."
+}

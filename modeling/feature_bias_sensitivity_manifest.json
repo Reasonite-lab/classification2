@@ -1,0 +1,13 @@
+{
+  "dataset": "data\\processed\\georoc_primary3_v0_1.parquet",
+  "common_cohort_rows": 43005,
+  "labels": [
+    "ARC",
+    "CIB",
+    "OIB"
+  ],
+  "broad_feature_count": 22,
+  "immobile_feature_count": 19,
+  "random_seed": 20260714,
+  "note": "Values-only models omit explicit missingness indicators; missingness-only is a bias diagnostic."
+}

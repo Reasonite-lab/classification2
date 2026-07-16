@@ -1,0 +1,48 @@
+{
+  "training_dataset": "data/processed/petdb_primary4_v0_1.parquet",
+  "training_rows": 6148,
+  "training_class_counts": {
+    "MORB": 3650,
+    "OIB": 1281,
+    "ARC": 754,
+    "CIB": 463
+  },
+  "features": [
+    "SIO2(WT%)",
+    "TIO2(WT%)",
+    "AL2O3(WT%)",
+    "FEOT(WT%)",
+    "CAO(WT%)",
+    "MGO(WT%)",
+    "MNO(WT%)",
+    "K2O(WT%)",
+    "NA2O(WT%)",
+    "P2O5(WT%)",
+    "V(PPM)",
+    "CR(PPM)",
+    "NI(PPM)",
+    "RB(PPM)",
+    "SR(PPM)",
+    "Y(PPM)",
+    "ZR(PPM)",
+    "NB(PPM)",
+    "LA(PPM)",
+    "CE(PPM)",
+    "ND(PPM)",
+    "TH(PPM)"
+  ],
+  "models": [
+    "logistic_balanced",
+    "random_forest_balanced"
+  ],
+  "external_sources": [
+    "data/processed/pangaea_922011_arc_backarc_external_v0_1.parquet",
+    "data/processed/rio_grande_rift_cib_external_v0_1.parquet"
+  ],
+  "strict_arc_n": 12,
+  "strict_cib_n": 28,
+  "back_arc_transition_n": 21,
+  "domain_check": "Count each external sample's observed log10 features outside the PetDB training 1st-99th percentile envelope.",
+  "scoring_policy": "Erromango and Vulcan Seamount are scored as ARC; Rio Grande Rift and Jemez Lineament basalt are scored as CIB. Vate Trough is an unscored back-arc transition pressure test.",
+  "scope_caveat": "The strict external set contains only ARC and CIB and only two studies. Combined accuracy is not external four-class balanced accuracy, and samples within each study are not independent geological provinces."
+}

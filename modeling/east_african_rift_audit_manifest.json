@@ -1,0 +1,36 @@
+{
+  "cohort": "PetDB primary4 broad model-ready samples with location_root EAST AFRICAN RIFT",
+  "rows": 361,
+  "actual_counts": {
+    "CIB": 347,
+    "MORB": 14
+  },
+  "country_counts": {
+    "ETHIOPIA": 197,
+    "KENYA": 107,
+    "TANZANIA": 30,
+    "DEMOCRATIC REPUBLIC OF THE CONGO": 12,
+    "DJIBOUTI": 8,
+    "SUDAN": 4,
+    "<UNRESOLVED>": 3
+  },
+  "confusion": {
+    "CIB": {
+      "ARC": 19,
+      "CIB": 5,
+      "MORB": 19,
+      "OIB": 304
+    },
+    "MORB": {
+      "ARC": 0,
+      "CIB": 0,
+      "MORB": 1,
+      "OIB": 13
+    }
+  },
+  "overall_correct": 6,
+  "overall_error_rate": 0.9833795013850416,
+  "cib_recall": 0.01440922190201729,
+  "cib_to_oib_share": 0.8760806916426513,
+  "interpretation_caveat": "The audit demonstrates province-level domain shift and a rift-to-plume geochemical continuum. Class-median shifts mix mantle source, melting, differentiation, analytical coverage, and literature selection; they do not identify a unique causal mechanism."
+}

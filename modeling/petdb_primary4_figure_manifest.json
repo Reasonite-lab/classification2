@@ -1,0 +1,17 @@
+{
+  "calibration_cohort": "PetDB primary4 common-21 out-of-fold predictions under each validation strategy",
+  "primary_calibration": {
+    "cv_strategy": "citation_overlap_conservative",
+    "model": "random_forest_balanced",
+    "multiclass_brier": 0.23587352138138337,
+    "top_label_ece": 0.07497816402373898,
+    "mean_top_label_confidence": 0.7742632612245763
+  },
+  "figure_contracts": {
+    "validation_performance": "grouped bars from zero; exact labels; two model colors",
+    "grouped_confusion": "two row-normalized heatmaps on identical 0–1 scale",
+    "calibration": "four class reliability curves plus dark-neutral ideal line",
+    "cross_database_transfer": "grouped bars from zero; direction × ontology variant"
+  },
+  "caveat": "Calibration is descriptive out-of-fold reliability without post-hoc recalibration. Cross-database transfer excludes MORB and mixes database with ontology shift."
+}

@@ -1,0 +1,79 @@
+{
+  "training_dataset": "data/processed/petdb_primary4_v0_1.parquet",
+  "training_rows": 6148,
+  "features": [
+    "SIO2(WT%)",
+    "TIO2(WT%)",
+    "AL2O3(WT%)",
+    "FEOT(WT%)",
+    "CAO(WT%)",
+    "MGO(WT%)",
+    "MNO(WT%)",
+    "K2O(WT%)",
+    "NA2O(WT%)",
+    "P2O5(WT%)",
+    "RB(PPM)",
+    "SR(PPM)",
+    "Y(PPM)",
+    "ZR(PPM)",
+    "NB(PPM)",
+    "LA(PPM)",
+    "CE(PPM)",
+    "ND(PPM)"
+  ],
+  "models": [
+    "logistic_balanced",
+    "random_forest_balanced"
+  ],
+  "external_class_counts": {
+    "CIB": 98,
+    "OIB": 55,
+    "MORB": 48,
+    "ARC": 30
+  },
+  "external_province_proxies": {
+    "ARC": [
+      "South New Hebrides arc front",
+      "Costa Rica volcanic front"
+    ],
+    "CIB": [
+      "Rio Grande Rift/Jemez Lineament",
+      "Big Pine volcanic field"
+    ],
+    "MORB": [
+      "SWIR repository cohort",
+      "South Mid-Atlantic Ridge 18-20.6 S"
+    ],
+    "OIB": [
+      "Mauna Loa 2022 eruption",
+      "La Palma 2021 eruption"
+    ]
+  },
+  "external_n": 231,
+  "morb_provenance_status": "The SWIR repository cohort remains provisional because no linked journal DOI was found. The second MORB proxy is publisher-primary and linked to Zhong et al. (2019), doi:10.3390/min9110659.",
+  "domain_check": "Per sample, count observed common18 log10 feature values outside the PetDB training 1st-99th percentile envelope.",
+  "independence_limit": "All four labels now contain two province proxies, which is the minimum symmetric external design. Two clusters per label remain insufficient for stable province-cluster confidence intervals; province-level outcomes are therefore reported descriptively rather than treated as independent samples.",
+  "transition_policy": "Vate Trough samples are unscored and reported separately as an initial back-arc-rift mechanism pressure test.",
+  "internal_reference": [
+    {
+      "model": "logistic_balanced",
+      "feature_set": "common18_figshare",
+      "validation": "citation_overlap_conservative",
+      "n": 6148,
+      "accuracy": 0.7906636304489265,
+      "balanced_accuracy": 0.7018690015878326,
+      "macro_f1": 0.6851391564394813,
+      "log_loss": 0.7497483806525912
+    },
+    {
+      "model": "random_forest_balanced",
+      "feature_set": "common18_figshare",
+      "validation": "citation_overlap_conservative",
+      "n": 6148,
+      "accuracy": 0.852309694209499,
+      "balanced_accuracy": 0.7540332588093535,
+      "macro_f1": 0.7561182220478967,
+      "log_loss": 0.4645613399676948
+    }
+  ]
+}

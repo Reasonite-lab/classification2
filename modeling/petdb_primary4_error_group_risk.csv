@@ -1,0 +1,529 @@
+group_value,n,errors,mean_confidence,dominant_actual,error_rate,cv_strategy,group_field
+01386bd6d8e091c2ab4c7c7de644d37b,501,26,0.8641447899126893,MORB,0.05189620758483034,citation_overlap_conservative,citation_overlap_component
+021bbc7ee20b71134d53e20206bd6feb,18,0,0.9998717526355421,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+028ee724157b05d04e7bdcf237d12e60,8,0,0.7977276474137968,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+02e74f10e0327ad868d138f2b4fdd6f0,8,8,0.5324232921220579,MORB,1.0,citation_overlap_conservative,citation_overlap_component
+038d5463327addf90d282c35be4c5eb1,6,0,0.6734145984062924,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+03e0704b5690a2dee1861dc3ad3316c9,62,0,0.7502846241255763,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+044a23cadb567653eb51d4eb40acaa88,4,3,0.5972839292962645,OIB,0.75,citation_overlap_conservative,citation_overlap_component
+045117b0e0a11a242b9765e79cbf113f,9,0,0.8895264741475652,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+04c6906524cd877e833fe26ddaddc62f,9,1,0.6065712779388496,CIB,0.1111111111111111,citation_overlap_conservative,citation_overlap_component
+06f7c042b76e4b04f698c75b7b2777ea,11,0,0.9957899014952709,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+0747b9be4f90056c30eb5241f06bfe9b,2,0,0.5526253556375382,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+0777d5c17d4066b82ab86dff8a46af6f,223,2,0.8977506348866668,MORB,0.008968609865470852,citation_overlap_conservative,citation_overlap_component
+07cdfd23373b17c6b337251c22b7ea57,4,0,0.9680359529174615,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+09ba3f0df1447f40e98674ba9d62c747,3,0,0.8776448351438665,OIB,0.0,citation_overlap_conservative,citation_overlap_component
+09c6c3783b4a70054da74f2538ed47c6,1,0,0.9044104272175104,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+0afa92fc0f8a9cf051bf2961b06ac56b,63,0,0.8545554155174299,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+0c6b6f19684ed9b6ff07575fcf81c98d,46,46,0.8645061499795695,OIB,1.0,citation_overlap_conservative,citation_overlap_component
+0c8ce55163055c4da50a81e0a273468c,9,8,0.599756833270559,MORB,0.8888888888888888,citation_overlap_conservative,citation_overlap_component
+0d441de75945e5acbc865406fc9a2559,2,1,0.48512596236608674,ARC,0.5,citation_overlap_conservative,citation_overlap_component
+0d9095b0d6bbe98ea0c9c02b11b59ee3,43,27,0.5077369772663215,MORB,0.627906976744186,citation_overlap_conservative,citation_overlap_component
+0e64a7b00c83e3d22ce6b3acf2c582b6,30,0,0.7868381659185951,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+0fc170ecbb8ff1afb2c6de48ea5343e7,3,1,0.5454619532599384,OIB,0.3333333333333333,citation_overlap_conservative,citation_overlap_component
+1006ff12c465532f8c574aeaa4461b16,17,7,0.5843586253793501,OIB,0.4117647058823529,citation_overlap_conservative,citation_overlap_component
+109a0ca3bc27f3e96597370d5c8cf03d,1,0,0.9266838100662712,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+109d2dd3608f669ca17920c511c2a41e,23,22,0.5000271803011326,CIB,0.9565217391304348,citation_overlap_conservative,citation_overlap_component
+13111c20aee51aeb480ecbd988cd8cc9,209,0,0.948321267968437,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+1343777b8ead1cef5a79b78a1a48d805,1,1,0.6565847075368311,CIB,1.0,citation_overlap_conservative,citation_overlap_component
+1373b284bc381890049e92d324f56de0,1,0,0.9182145546818303,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+147540e129e096fa91700e9db6588354,2,2,0.39444782388023514,ARC,1.0,citation_overlap_conservative,citation_overlap_component
+14bfa6bb14875e45bba028a21ed38046,6,0,0.5413526936698009,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+15e122e839dfdaa7ce969536f94aecf6,4,0,0.7399486477813233,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+1713a23c14b5033adb074b5464fb6c66,21,20,0.6210800661946975,CIB,0.9523809523809523,citation_overlap_conservative,citation_overlap_component
+174f8f613332b27e9e8a5138adb7e920,6,6,0.7773331121849586,CIB,1.0,citation_overlap_conservative,citation_overlap_component
+186a157b2992e7daed3677ce8e9fe40f,205,0,0.9130672066509824,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+18a4e1366eb78af25ed5cfc306e8f873,3,0,0.6648757136081361,CIB,0.0,citation_overlap_conservative,citation_overlap_component
+1a344877f11195aaf947ccfe48ee9c89,2,1,0.43701837588787495,ARC,0.5,citation_overlap_conservative,citation_overlap_component
+1b33d16fc562464579b7199ca3114982,4,0,0.5289070999427972,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+1baff70e2669e8376347efd3a874a341,26,0,0.7300088784792546,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+1cd3882394520876dc88d1472aa2a93f,18,1,0.659294392915231,ARC,0.05555555555555555,citation_overlap_conservative,citation_overlap_component
+1e8ca836c962598551882e689265c1c5,16,2,0.7456150328804593,OIB,0.125,citation_overlap_conservative,citation_overlap_component
+1f9b616faddedc02339603f3b37d196c,4,0,0.39914824122652337,CIB,0.0,citation_overlap_conservative,citation_overlap_component
+2000f6325dfc4fc3201fc45ed01c7a5d,1,0,0.5085262534704644,OIB,0.0,citation_overlap_conservative,citation_overlap_component
+220a7f49d42406598587a66f02584ac3,56,0,0.9249103410422534,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+2291d2ec3b3048d1a6f86c2c4591b7e0,1,0,1.0,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+22b1f2e0983160db6f7bb9f62f4dbb39,21,0,0.6605904131113082,OIB,0.0,citation_overlap_conservative,citation_overlap_component
+22c5a901070d1c2ad33e821d071ae97e,20,0,0.8615478742953574,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+258e130476290221f597c56d351224b6,3,1,0.6473110683646788,CIB,0.3333333333333333,citation_overlap_conservative,citation_overlap_component
+26337353b7962f533d78c762373b3318,42,1,0.6254514524662721,MORB,0.023809523809523808,citation_overlap_conservative,citation_overlap_component
+2654d1a3f16bf62d0dc4f91fa3ec9377,3,2,0.6510799054408934,MORB,0.6666666666666666,citation_overlap_conservative,citation_overlap_component
+27b587bbe83aecf9a98c8fe6ab48cacc,7,0,0.7659183457143153,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+286674e3082feb7e5afb92777e48821f,48,0,0.8916813844746097,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+289dff07669d7a23de0ef88d2f7129e7,91,0,0.7567307786680466,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+28dd2c7955ce926456240b2ff0100bde,14,0,0.9450314401912004,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+2a3d6d6cc4b5e77238c1fc1bb6cdd681,6,4,0.33452822565529683,ARC,0.6666666666666666,citation_overlap_conservative,citation_overlap_component
+2bc8ae25856bc2a6a1333d1331a3b7a6,3,0,0.5818735124628526,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+2bcab9d935d219641434683dd9d18a03,38,0,0.9943835897824883,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+2ca65f58e35d9ad45bf7f3ae5cfd08f1,28,0,0.800765087068008,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+2cb6b10338a7fc4117a80da24b582060,28,10,0.6676026859774845,ARC,0.35714285714285715,citation_overlap_conservative,citation_overlap_component
+2ecd2bd94734e5dd392d8678bc64cdab,22,22,0.6558833971627831,OIB,1.0,citation_overlap_conservative,citation_overlap_component
+2f2b265625d76a6704b08093c652fd79,16,0,0.9783461315239912,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+3070e6addcd702cb58de5d7897bfdae1,6,0,0.7018650167358879,OIB,0.0,citation_overlap_conservative,citation_overlap_component
+309fee4e541e51de2e41f21bebb342aa,12,0,0.880968808062666,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+326fb04c3abf030fe3f4e341f39b573f,44,0,0.8336715338421588,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+32bb90e8976aab5298d5da10fe66f21d,48,0,0.9535382909176141,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+3323fe11e9595c09af38fe67567a9394,1,0,0.7612590927163267,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+3328bdf9a4b9504b9398284244fe97c2,73,0,0.9473942184558095,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+34306d99c63613fad5b2a140398c0420,6,4,0.49975086971719945,CIB,0.6666666666666666,citation_overlap_conservative,citation_overlap_component
+35464c848f410e55a13bb9d78e7fddd0,1,0,0.734638066620922,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+36a1694bce9815b7e38a9dad05ad42e0,31,1,0.7624195477391917,MORB,0.03225806451612903,citation_overlap_conservative,citation_overlap_component
+3713bdda7149579475f3734e8bd0e14a,3,0,0.9693214087551008,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+37d097caf1299d9aa79c2c2b843d2d78,2,0,0.9058796885880993,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+3871bd64012152bfb53fdf04b401193f,15,14,0.5441791149701305,MORB,0.9333333333333333,citation_overlap_conservative,citation_overlap_component
+39ae2ed11b14a4ccb41d35e9d1ba5d11,7,0,0.8061309745596869,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+3b3fff6463464959dcd1b68d0320f781,4,1,0.8457138170462977,OIB,0.25,citation_overlap_conservative,citation_overlap_component
+3bbfdde8842a5c44a0323518eec97cbe,2,0,0.9988395752775352,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+3bc3e78c17d35e74ecfae5e475d960d7,5,1,0.71795872529877,CIB,0.2,citation_overlap_conservative,citation_overlap_component
+3bcf6eecb2611212e088d0d91f2ade9c,40,35,0.6991818620385732,CIB,0.875,citation_overlap_conservative,citation_overlap_component
+3cef96dcc9b8035d23f69e30bb19218a,89,0,0.9585231280271077,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+3d8e28caf901313a554cebc7d32e67e5,11,0,0.9085535030052686,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+3e195b0793297114c668f772c6e2d9ba,14,0,0.6921053816377453,CIB,0.0,citation_overlap_conservative,citation_overlap_component
+3e9f0fc9b2f89e043bc6233994dfcf76,59,25,0.6439321149625706,CIB,0.423728813559322,citation_overlap_conservative,citation_overlap_component
+40c48dab939a482f04dcecde07e27de6,13,1,0.7270294281429668,ARC,0.07692307692307693,citation_overlap_conservative,citation_overlap_component
+40cccad2ac57c29035a432356f3c978d,4,3,0.6223431867351399,CIB,0.75,citation_overlap_conservative,citation_overlap_component
+41b0db49fd10d95920281dead0710f58,46,5,0.725102125034509,ARC,0.10869565217391304,citation_overlap_conservative,citation_overlap_component
+42998cf32d552343bc8e460416382dca,4,1,0.8301483409645252,MORB,0.25,citation_overlap_conservative,citation_overlap_component
+42d6c7d61481d1c21bd1635f59edae05,21,0,0.8134316741031915,OIB,0.0,citation_overlap_conservative,citation_overlap_component
+43cf3ae60279360eab2d678461a565c3,14,12,0.5787417999654758,MORB,0.8571428571428571,citation_overlap_conservative,citation_overlap_component
+44a2e0804995faf8d2e3b084a1e2db1d,1,1,0.5448294442345195,CIB,1.0,citation_overlap_conservative,citation_overlap_component
+4607f7fff0dce694258e1c637512aa9d,28,1,0.6760749405437139,CIB,0.03571428571428571,citation_overlap_conservative,citation_overlap_component
+46f76a4bda9a9579eab38a8f6eabcda1,8,2,0.454276258839551,OIB,0.25,citation_overlap_conservative,citation_overlap_component
+47810f956e3d8fb8a32fb276448b464d,7,0,0.9805579189118142,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+47a658229eb2368a99f1d032c8848542,1,0,0.8664047281468914,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+47d1e990583c9c67424d369f3414728e,1,0,0.5584484910039007,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+48042b1dae4950fef2bd2aafa0b971a1,58,45,0.640879188222488,ARC,0.7758620689655172,citation_overlap_conservative,citation_overlap_component
+494c08f7a144d3cc4cfa661ed1244039,5,0,0.6506115152864131,CIB,0.0,citation_overlap_conservative,citation_overlap_component
+49b8b4f95f02e055801da3b4f58e28b7,20,0,0.7622510088101516,OIB,0.0,citation_overlap_conservative,citation_overlap_component
+4a11654ad1e1e48352252859ff3032a0,5,1,0.5405383251500653,ARC,0.2,citation_overlap_conservative,citation_overlap_component
+4c22bd444899d3b6047a10b20a2f26db,8,4,0.4093252113508657,CIB,0.5,citation_overlap_conservative,citation_overlap_component
+4e0928de075538c593fbdabb0c5ef2c3,67,0,0.9481634628362359,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+4e2a6330465c8ffcaa696a5a16639176,9,0,0.5723980941608228,OIB,0.0,citation_overlap_conservative,citation_overlap_component
+4ff3e350028d0cfcb92c3a87a57585b1,3,3,0.5539072670358226,ARC,1.0,citation_overlap_conservative,citation_overlap_component
+50d2d2262762648589b1943078712aa6,37,1,0.9143278053472346,MORB,0.02702702702702703,citation_overlap_conservative,citation_overlap_component
+51be2fed6c55f5aa0c16ff14c140b187,27,0,0.8733433949496933,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+51de85ddd068f0bc787691d356176df9,34,1,0.6456405478105983,ARC,0.029411764705882353,citation_overlap_conservative,citation_overlap_component
+52947e0ade57a09e4a1386d08f17b656,4,0,0.7404429480842332,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+52b738b303d90a884137546353e09ebb,7,0,0.9952862774165715,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+540ae6b0f6ac6e155062f3dd4f0b2b01,101,0,0.9402041818633503,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+549406198764950208345d143aa67c7d,4,0,0.7624107460245744,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+54b2b21af94108d83c2a909d5b0a6a50,3,0,0.5544462865214994,OIB,0.0,citation_overlap_conservative,citation_overlap_component
+563ca5e068bc78b807910338bb4d4279,6,0,0.7458721270732482,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+564645fbd0332f066cbd9d083ddd077c,55,3,0.6482304476064055,OIB,0.05454545454545454,citation_overlap_conservative,citation_overlap_component
+577fd60255d4bb0f466464849ffe6d8e,21,21,0.6190514410737972,MORB,1.0,citation_overlap_conservative,citation_overlap_component
+582967e09f1b30ca2539968da0a174fa,6,0,0.7475242498926945,CIB,0.0,citation_overlap_conservative,citation_overlap_component
+598920e11d1eb2a49501d59fce5ecbb7,7,0,0.9411913802466918,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+59b90e1005a220e2ebc542eb9d950b1e,4,0,0.8686407198008348,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+5c151c2a9b76f9ef26d7e0f0d00c9a89,1,0,0.5280765952533383,CIB,0.0,citation_overlap_conservative,citation_overlap_component
+5cce8dede893813f879b873962fb669f,35,1,0.6195478399037899,OIB,0.02857142857142857,citation_overlap_conservative,citation_overlap_component
+5d40954183d62a82257835477ccad3d2,21,21,0.6523379077271605,OIB,1.0,citation_overlap_conservative,citation_overlap_component
+5e7264477cf9b6b237a0d254cf0324e2,1,0,0.6285773276267951,CIB,0.0,citation_overlap_conservative,citation_overlap_component
+5ec829debe54b19a5f78d9a65b900a39,12,6,0.512134673457107,OIB,0.5,citation_overlap_conservative,citation_overlap_component
+5f93f983524def3dca464469d2cf9f3e,146,0,0.9723942952677264,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+6244b2ba957c48bc64582cf2bcec3d04,15,8,0.6156718547138522,OIB,0.5333333333333333,citation_overlap_conservative,citation_overlap_component
+630b7d8dd49a0bab667498f287d68c16,5,0,0.8101817153471045,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+63cb524a9f51b7858733e1108bf556fa,29,2,0.7689238582122362,ARC,0.06896551724137931,citation_overlap_conservative,citation_overlap_component
+640258597cbc50037072712f964cf5d8,19,0,0.7866397980353479,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+647c722bf90a49140184672e0d3723e3,149,0,0.9293068541030536,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+64c31821603ab476a318839606743bd6,86,17,0.5994256865036712,OIB,0.19767441860465115,citation_overlap_conservative,citation_overlap_component
+6651526b6fb8f29a00507de6a49ce30f,42,4,0.8139477422866211,MORB,0.09523809523809523,citation_overlap_conservative,citation_overlap_component
+6786f3c62fbf9021694f6e51cc07fe3c,3,0,0.7712701819345127,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+67974233917cea0e42a49a2fb7eb4cf4,6,0,0.6115840419776571,CIB,0.0,citation_overlap_conservative,citation_overlap_component
+6917ff2a7b53421ff4066020e2d89eec,7,0,0.860027890889789,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+6b620aedfa4cf153467265629501dd61,1,0,0.7457875369092282,OIB,0.0,citation_overlap_conservative,citation_overlap_component
+6c0958d82a830a02c0718147b1b565c1,3,1,0.3773087279949761,CIB,0.3333333333333333,citation_overlap_conservative,citation_overlap_component
+6c4bb406b3e7cd5447f7a76fd7008806,7,0,0.8234853144951076,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+6c91724b896cdcf48285039ab05b3aaf,1,0,0.4986885929190545,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+6cd9313ed34ef58bad3fdd504355e72c,19,0,0.9961290683938572,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+6e7b33fdea3adc80ebd648fffb665bb8,8,7,0.49356356812588226,MORB,0.875,citation_overlap_conservative,citation_overlap_component
+70d5212dd052b2ef06e5e562f6f9ab9c,1,1,0.5246769254439994,OIB,1.0,citation_overlap_conservative,citation_overlap_component
+7369f3c86bf3c0a354615432832d9e8f,11,0,0.879386173211426,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+7535bbb91c8fde347ad861f293126633,8,0,0.8654253002005784,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+774b0e07753b0b94d1a1c5b0543b5fe1,4,0,0.7183740442059371,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+77cdfc1e11e36a23bb030892ee00b8cf,18,0,0.8572474294345412,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+7827d1ec626c891d4b61a15c9dff296e,5,0,0.8832099906203348,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+7884a9652e94555c70f96b6be63be216,20,0,0.9041794339017042,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+7a4bf9ba2bd774068ad50351fb898076,9,4,0.6086469749815007,OIB,0.4444444444444444,citation_overlap_conservative,citation_overlap_component
+7cce53cf90577442771720a370c3c723,8,0,0.9917911772183146,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+7e05295a468401ec66e8c337855022ed,5,0,0.7212273927492808,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+7f01c939761597f9b832694d4c381512,3,1,0.7782119755463999,ARC,0.3333333333333333,citation_overlap_conservative,citation_overlap_component
+7f6caf1f0ba788cd7953d817724c2b6e,8,0,0.5897045356684166,CIB,0.0,citation_overlap_conservative,citation_overlap_component
+7fa732b517cbed14a48843d74526c11a,5,0,0.8614575687625019,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+7fd804295ef7f6a2822bf4c61f9dc4a8,21,18,0.5070455315258136,MORB,0.8571428571428571,citation_overlap_conservative,citation_overlap_component
+80537a945c7aaa788ccfcdf1b99b5d8f,1,0,0.8766946147719187,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+8169e05e2a0debcb15458f2cc1eff0ea,7,0,0.9062298219586647,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+816b112c6105b3ebd537828a39af4818,4,0,0.9575208874984589,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+82ca5dd156cc926b2992f73c2896f761,6,0,0.9347170502270291,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+83eaa6722798a773dd55e8fc7443aa09,6,0,0.6972482457512403,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+85353d3b2f39b9c9b5ee3576578c04b7,7,0,0.610358426775375,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+868b7df964b1af24c8c0a9e43a330c6a,8,1,0.5528868769943287,OIB,0.125,citation_overlap_conservative,citation_overlap_component
+86df7dcfd896fcaf2674f757a2463eba,2,0,0.9327272199575691,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+86e8f7ab32cfd12577bc2619bc635690,63,0,0.8636776111973777,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+881c6efa917cff1c97a74e03e15f43e8,2,0,0.9004497302568861,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+88855547570f7ff053fff7c54e5148cc,15,0,0.7338362475979604,OIB,0.0,citation_overlap_conservative,citation_overlap_component
+8a0e1141fd37fa5b98d5bb769ba1a7cc,1,0,0.9453830888966432,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+8b16ebc056e613024c057be590b542eb,19,0,0.9957069374968972,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+8c1b6fa97c4288a4514365198566c6fa,9,9,0.7716504601730215,MORB,1.0,citation_overlap_conservative,citation_overlap_component
+8c53d30ad023ce50140181f713059ddf,25,4,0.5247236324237322,MORB,0.16,citation_overlap_conservative,citation_overlap_component
+8c6744c9d42ec2cb9e8885b54ff744d0,3,2,0.5289118600612713,MORB,0.6666666666666666,citation_overlap_conservative,citation_overlap_component
+8df707a948fac1b4a0f97aa554886ec8,3,0,0.8388892548947587,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+8e296a067a37563370ded05f5a3bf3ec,31,9,0.8123139802720848,MORB,0.2903225806451613,citation_overlap_conservative,citation_overlap_component
+8f04ac8eadb8a829a4c2117ade0f23da,33,11,0.5172204540110465,CIB,0.3333333333333333,citation_overlap_conservative,citation_overlap_component
+8f1d43620bc6bb580df6e80b0dc05c48,3,0,0.9749591397340898,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+91f9fec9b080c74297a55c392b5f40a4,2,0,0.8445516856032704,CIB,0.0,citation_overlap_conservative,citation_overlap_component
+92a0e7a415d64ebafcb16a8ca817cde4,4,0,0.8000371605680441,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+939314105ce8701e67489642ef4d49e8,1,1,0.3134917896578724,ARC,1.0,citation_overlap_conservative,citation_overlap_component
+9425be43ba92c2b4454ca7bf602efad8,134,35,0.5965156678560117,OIB,0.26119402985074625,citation_overlap_conservative,citation_overlap_component
+9657c1fffd38824e5ab0472e022e577e,8,0,0.8187437123262071,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+96da2f590cd7246bbde0051047b0d6f7,18,0,0.9022270004032796,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+96f2b50b5d3613adf9c27049b2a888c7,23,23,0.39235862454323267,OIB,1.0,citation_overlap_conservative,citation_overlap_component
+9854d7afce413aa13cd0a1d39d0bcec5,29,2,0.6364105975676986,OIB,0.06896551724137931,citation_overlap_conservative,citation_overlap_component
+98bd65207ee83bfd17ebb0db971eddf9,14,0,0.7359472541667119,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+9a02387b02ce7de2dac4b925892f68fb,2,0,0.7604202013178811,CIB,0.0,citation_overlap_conservative,citation_overlap_component
+9e984c108157cea74c894b5cf34efc44,7,1,0.9167272254571629,ARC,0.14285714285714285,citation_overlap_conservative,citation_overlap_component
+9f60ab2b55468f104055b16df8f69e81,6,1,0.4902461864255329,MORB,0.16666666666666666,citation_overlap_conservative,citation_overlap_component
+9fe4e15b3924b1a78221734d0c063ae7,6,1,0.5582062399543607,CIB,0.16666666666666666,citation_overlap_conservative,citation_overlap_component
+a113c1ecd3cace2237256f4c712f61b5,193,2,0.8594007682541622,MORB,0.010362694300518135,citation_overlap_conservative,citation_overlap_component
+a3048e47310d6efaa4b1eaf55227bc92,1,0,0.6798362942533058,CIB,0.0,citation_overlap_conservative,citation_overlap_component
+a34e1ddbb4d329167f50992ba59fe45a,2,2,0.6615109764165412,CIB,1.0,citation_overlap_conservative,citation_overlap_component
+a3788c8c64fd65c470e23e7534c3ebc8,145,46,0.4987500892197104,OIB,0.31724137931034485,citation_overlap_conservative,citation_overlap_component
+a424ed4bd3a7d6aea720b86d4a360f75,12,0,0.6141348942454491,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+a5bfc9e07964f8dddeb95fc584cd965d,26,0,0.9945960970849032,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+a5ff5d4b0a0d7b3e4d64147037d8c344,37,8,0.6508302237083153,OIB,0.21621621621621623,citation_overlap_conservative,citation_overlap_component
+a6d259bfbfa2062843ef543e21d7ec8e,3,0,0.8138764787392218,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+a787f02ed34fd886eb6d49e60d9c9120,60,2,0.7645585864381247,OIB,0.03333333333333333,citation_overlap_conservative,citation_overlap_component
+a869ccbcbd9568808b8497e28275c7c8,4,0,0.626544366932779,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+a8badd37c221a3f19d9ad0ac2196849a,30,0,0.8819197931541226,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+a9078e8653368c9c291ae2f8b74012e7,5,0,0.8826571816302824,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+aa97d584861474f4097cf13ccb5325da,7,0,0.6089912648301672,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+aace49c7d80767cffec0e513ae886df0,7,0,0.8650396223416186,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+ab6439fa2daf0246f92eea433bca5ac4,88,28,0.5571124976460481,OIB,0.3181818181818182,citation_overlap_conservative,citation_overlap_component
+ad61ab143223efbc24c7d2583be69251,41,8,0.5850863841665741,OIB,0.1951219512195122,citation_overlap_conservative,citation_overlap_component
+aeb3135b436aa55373822c010763dd54,1,0,0.7761083303471369,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+b08354f3688c4e4e8c52c207d7d5b8c3,9,0,0.7508290615733119,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+b21f9f98829dea9a48fd8aaddc1f159d,4,0,0.43651157156307596,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+b22b257ad0519d4500539da3c8bcf4dd,2,0,0.6570090918247344,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+b265ce60fe4c5384e622b09eb829b8df,3,0,0.59637823444019,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+b2ab001909a8a6f04b51920306046ce5,1,0,0.9322449933899059,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+b2ea5e977c5fc1ccfa74171a9723dd61,1,0,0.43942098333081187,OIB,0.0,citation_overlap_conservative,citation_overlap_component
+b5baa9c23ac3e015ad287b17a3d4afa3,6,0,0.7963557619427397,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+b6f8dc086b2d60c5856e4ff517060392,22,0,0.8724714194415529,OIB,0.0,citation_overlap_conservative,citation_overlap_component
+b7892fb3c2f009c65f686f6355c895b5,13,0,0.7355601075052333,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+b86e8d03fe992d1b0e19656875ee557c,25,0,0.9112478507271239,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+ba3e9b6a519cfddc560b5d53210df1bd,1,0,0.9674155718866686,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+bdb106a0560c4e46ccc488ef010af787,15,0,0.9528445607787069,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+c04c19c2c2474dbf5f7ac4372c5b9af1,12,2,0.6379802740911389,CIB,0.16666666666666666,citation_overlap_conservative,citation_overlap_component
+c0e90532fb42ac6de18e25e95db73047,4,0,0.5533414241959331,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+c12706a7c6e8d6476c3d2b6ae0042a82,7,1,0.44365679377297224,ARC,0.14285714285714285,citation_overlap_conservative,citation_overlap_component
+c16a5320fa475530d9583c34fd356ef5,11,0,0.920647325734964,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+c1aeb6517a1c7f33514f7ff69047e74e,79,42,0.5139940582787865,OIB,0.5316455696202531,citation_overlap_conservative,citation_overlap_component
+c315f0320b7cd4ec85756fac52d78076,4,2,0.3692510872733889,OIB,0.5,citation_overlap_conservative,citation_overlap_component
+c6ede20e6f597abf4b3f6bb30cee16c7,6,6,0.46375857057514547,CIB,1.0,citation_overlap_conservative,citation_overlap_component
+c78c347465f4775425c059ea101c131f,49,42,0.6065152542667471,CIB,0.8571428571428571,citation_overlap_conservative,citation_overlap_component
+c90e274d55309db944076afb3ff9c391,10,6,0.6572725623198631,OIB,0.6,citation_overlap_conservative,citation_overlap_component
+c96c08f8bb7960e11a1239352a479053,8,1,0.6668641278951342,OIB,0.125,citation_overlap_conservative,citation_overlap_component
+ca851e9f71b25d2d588b7e0d4de3d627,14,5,0.4672391817536453,OIB,0.35714285714285715,citation_overlap_conservative,citation_overlap_component
+cc7e2b878868cbae992d1fb743995d8f,11,0,0.7129345839683034,OIB,0.0,citation_overlap_conservative,citation_overlap_component
+cda72177eba360ff16b7f836e2754370,18,0,0.927725981321398,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+cf1cf43cba274ae7f413e864682b80f8,3,0,0.6233915872797272,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+cfa5301358b9fcbe7aa45b1ceea088c6,54,11,0.5012528449472212,OIB,0.2037037037037037,citation_overlap_conservative,citation_overlap_component
+cfee398643cbc3dc5eefc89334cacdc1,15,0,0.9448057873992852,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+d09bf41544a3365a46c9077ebb5e35c3,2,0,0.66120448936892,OIB,0.0,citation_overlap_conservative,citation_overlap_component
+d1dc3a8270a6f9394f88847d7f0050cf,40,0,0.9543393867516923,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+d1f255a373a3cef72e03aa9d980c7eca,17,13,0.43197215223491486,MORB,0.7647058823529411,citation_overlap_conservative,citation_overlap_component
+d1fe173d08e959397adf34b1d77e88d7,2,0,0.8443456960022004,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+d210cf373cf002a04ec72ee395f66306,8,0,0.7871559621072226,OIB,0.0,citation_overlap_conservative,citation_overlap_component
+d2cd33e9c0236a8c2d8bd3fa91ad3acf,13,2,0.6363325860816755,OIB,0.15384615384615385,citation_overlap_conservative,citation_overlap_component
+d37b3ca37106b2bfdeaa12647e3bb1c9,2,0,0.8390595679396409,OIB,0.0,citation_overlap_conservative,citation_overlap_component
+d403137434343677b98efc88cbd5493d,6,6,0.8146773324223395,MORB,1.0,citation_overlap_conservative,citation_overlap_component
+d6ef5f7fa914c19931a55bb262ec879c,26,0,0.9751158064265232,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+d9b1655c134b831076d6c45620a78c33,3,3,0.4536220048474675,CIB,1.0,citation_overlap_conservative,citation_overlap_component
+db116b39f7a3ac5366079b1d9fe249a5,2,2,0.6407873475769751,MORB,1.0,citation_overlap_conservative,citation_overlap_component
+dbd22ba3bd0df8f385bdac3e9f8be207,8,2,0.5981335094215752,ARC,0.25,citation_overlap_conservative,citation_overlap_component
+dc0c398086fee58f9d64e1e47aa4e586,20,1,0.5784348435593019,CIB,0.05,citation_overlap_conservative,citation_overlap_component
+dc2208f9bbd11486d5dbbb9218e03017,4,3,0.4918579473427849,CIB,0.75,citation_overlap_conservative,citation_overlap_component
+dda04f9d634145a9c68d5dfe53b21272,4,4,0.461637133522843,ARC,1.0,citation_overlap_conservative,citation_overlap_component
+ddcbe25988981920c872c1787382f04d,9,0,0.9660783184381719,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+de594ef5c314372edec29b93cab9d72e,12,0,0.8009083622337908,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+dfbd282c18300fa0eccceea6c5fac41f,2,0,0.43507178411694863,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+e0126439e08ddfbdf4faa952dc910590,18,11,0.38898865153470424,ARC,0.6111111111111112,citation_overlap_conservative,citation_overlap_component
+e0c641195b27425bb056ac56f8953d24,24,0,0.8419942941209796,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+e25cfa90f04351958216f97e3efdabe9,29,29,0.4543262021636218,CIB,1.0,citation_overlap_conservative,citation_overlap_component
+e2ef524fbf3d9fe611d5a8e90fefdc9c,1,0,0.7049659174097707,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+e36258b3c74f08054a974a5fe1703f9c,2,0,0.6716547878890389,OIB,0.0,citation_overlap_conservative,citation_overlap_component
+e464f78f1b3fa6bfe6d887029bf66f0c,1,0,0.8720323159387956,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+e5f6ad6ce374177eef023bf5d0c018b6,1,0,0.9615836373789783,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+e661551c8ec9308379cda7e2419348e5,2,0,0.5686467659442447,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+e7e69cdf28f8ce6b69b4e1853ee21bab,3,0,0.46292983587022496,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+e7f8a7fb0b77bcb3b283af5be021448f,1,0,0.7089874537775568,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+e8bf0f27d70d480d3ab793bb7619aaa5,36,0,0.8405546021161159,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+e97c864e8ac67f7aed5ce53ec28638f5,29,0,0.548567577701479,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+e9fb2eda3d9c55a0d89c98d6c54b5b3e,3,0,0.7702771927495515,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+ead81fe8cfe9fda9e4c2093e17e4d024,2,0,0.9603361067558394,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+ee0b86d2e127f776eaaa97d77e078e41,5,0,0.6169874140977679,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+eeaebbffb5d29ff62799637fc51adb7b,27,1,0.6683761197084516,OIB,0.037037037037037035,citation_overlap_conservative,citation_overlap_component
+ef41d488755367316f04fc0e0e9dc9fc,119,7,0.7387209236051592,MORB,0.058823529411764705,citation_overlap_conservative,citation_overlap_component
+f2c3b258e9cd8ba16e18f319b3c88c66,4,4,0.5779015229976712,CIB,1.0,citation_overlap_conservative,citation_overlap_component
+f337d999d9ad116a7b4f3d409fcc6480,9,1,0.7004637860825617,MORB,0.1111111111111111,citation_overlap_conservative,citation_overlap_component
+f4552671f8909587cf485ea990207f3b,24,0,0.9499074907645255,MORB,0.0,citation_overlap_conservative,citation_overlap_component
+f52378e14237225a6f6c7d802dc6abbd,22,21,0.6334400360230847,MORB,0.9545454545454546,citation_overlap_conservative,citation_overlap_component
+f7ac67a9aa8d255282de7d11391e1b69,12,0,0.788492646327526,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+f7dafc45da369f8581fdf3bd599075aa,19,0,0.6985449761795831,CIB,0.0,citation_overlap_conservative,citation_overlap_component
+f804d21145597e42851fa736e221da3f,5,1,0.552903192541164,OIB,0.2,citation_overlap_conservative,citation_overlap_component
+faafda66202d234463057972460c04f5,57,0,0.7079420900127036,ARC,0.0,citation_overlap_conservative,citation_overlap_component
+fcde14913c766cf307c75059e0e89af5,6,1,0.6378829708613529,CIB,0.16666666666666666,citation_overlap_conservative,citation_overlap_component
+<MISSING>,6,0,0.6537369163240332,ARC,0.0,location_root_grouped,location_root
+ALBORAN,2,2,0.6383235367401632,MORB,1.0,location_root_grouped,location_root
+AMERICAN-ANTARCTIC RIDGE,18,0,0.8551236502041576,MORB,0.0,location_root_grouped,location_root
+AZORES TRIPLE JUNCTION,52,46,0.5779853013644548,MORB,0.8846153846153846,location_root_grouped,location_root
+"BACK-ARC_BASIN | IZU-BONIN, COUNTRY | JAPAN, OCEAN | PACIFIC, OROGENIC_BELT | JAPAN ARC, VOLCANO | IZU-OSHIMA",20,0,0.6745780637216482,ARC,0.0,location_root_grouped,location_root
+"BACK-ARC_BASIN | IZU-BONIN, OCEAN | PACIFIC",3,0,0.8160511671371945,ARC,0.0,location_root_grouped,location_root
+"BACK-ARC_BASIN | IZU-BONIN, OCEAN | PACIFIC, SEAMOUNT | CENTRAL HIYOSHI, VOLCANIC_ARC | BONIN ARC",2,0,0.5776581862567061,ARC,0.0,location_root_grouped,location_root
+"BACK-ARC_BASIN | IZU-BONIN, OCEAN | PACIFIC, SEAMOUNT | KO-HIYOSHI, VOLCANIC_ARC | BONIN ARC",4,0,0.8494578776556553,ARC,0.0,location_root_grouped,location_root
+"BACK-ARC_BASIN | IZU-BONIN, OCEAN | PACIFIC, SEAMOUNT | NORTH HIYOSHI, VOLCANIC_ARC | BONIN ARC",3,0,0.5608014924511391,ARC,0.0,location_root_grouped,location_root
+"BACK-ARC_BASIN | IZU-BONIN, OCEAN | PACIFIC, VOLCANO | NIIJIMA",5,0,0.9184862917348482,ARC,0.0,location_root_grouped,location_root
+"BACK-ARC_BASIN | IZU-BONIN, OCEAN | PACIFIC, VOLCANO | TOSHIMA",18,0,0.8977946302203466,ARC,0.0,location_root_grouped,location_root
+"BACK-ARC_BASIN | IZU-BONIN, OCEAN | PACIFIC, VOLCANO | UDONEJIMA",14,0,0.7489660529739047,ARC,0.0,location_root_grouped,location_root
+"BACK-ARC_BASIN | LAU, OCEAN | PACIFIC",2,0,0.936645049951865,ARC,0.0,location_root_grouped,location_root
+"BACK-ARC_BASIN | MARIANA TROUGH, OCEAN | PACIFIC",2,0,0.6210797596831685,ARC,0.0,location_root_grouped,location_root
+"BACK-ARC_BASIN | SHIKOKU, OCEAN | PACIFIC",3,0,0.5872079053528299,ARC,0.0,location_root_grouped,location_root
+CARLSBERG RIDGE,68,0,0.9354079851562235,MORB,0.0,location_root_grouped,location_root
+CENTRAL INDIAN RIDGE,141,2,0.8410213837953371,MORB,0.014184397163120567,location_root_grouped,location_root
+CHINOOK TROUGH,1,0,0.765513461517856,MORB,0.0,location_root_grouped,location_root
+COCOS-NAZCA,153,0,0.9386501629415719,MORB,0.0,location_root_grouped,location_root
+"COUNTRY | ANTARCTICA, ISLAND_GROUP | SHETLAND, OCEAN_ISLAND | KING GEORGE ISLAND",1,0,0.37498618199192596,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | ANTARCTICA, ISLAND_GROUP | SHETLAND, OCEAN_ISLAND | LIVINGSTON ISLAND",1,0,0.44254088580729184,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | ANTARCTICA, OCEAN_ISLAND | CRUZEN ISLAND",1,0,0.6095890235344902,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | BRAZIL, LARGE_IGNEOUS_PROVINCE | CAMP",23,22,0.4892238042210997,CIB,0.9565217391304348,location_root_grouped,location_root
+COUNTRY | CHILE,38,0,0.795511046952045,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | CHILE, ISLAND_GROUP | GALAPAGOS ARCHIPELAGO, OCEAN | PACIFIC, OCEAN_ISLAND | PINTA",1,0,0.569537475939595,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | CHILE, ISLAND_GROUP | JUAN FERNANDEZ ISLANDS, OCEAN | PACIFIC, OCEAN_ISLAND | ALEJANDRO SELKIRK",23,0,0.7543119756034009,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | CHILE, ISLAND_GROUP | JUAN FERNANDEZ ISLANDS, OCEAN | PACIFIC, OCEAN_ISLAND | MAS AFUERA",6,0,0.6501750630967219,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | CHILE, OCEAN | PACIFIC, OCEAN_ISLAND | EASTER ISLAND",2,0,0.5329621341960309,OIB,0.0,location_root_grouped,location_root
+COUNTRY | CHINA,3,3,0.3792754653674591,CIB,1.0,location_root_grouped,location_root
+"COUNTRY | CHINA, OCEAN_ISLAND | HAINAN",4,0,0.3540085420499607,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | COMOROS, OCEAN | INDIAN, OCEAN_ISLAND | COMOROS",2,1,0.5566002318701659,OIB,0.5,location_root_grouped,location_root
+"COUNTRY | CURACAO, OCEANIC_PLATEAU | CARIBBEAN-COLOMBIAN, OCEAN_ISLAND | CURACAO, SEA | CARIBBEAN",22,22,0.6312934580088133,OIB,1.0,location_root_grouped,location_root
+"COUNTRY | ECUADOR, ISLAND_GROUP | GALAPAGOS ARCHIPELAGO, OCEAN | PACIFIC, OCEAN_ISLAND | ALBEMARLE",1,0,0.6455727376255518,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | ECUADOR, ISLAND_GROUP | GALAPAGOS ARCHIPELAGO, OCEAN | PACIFIC, OCEAN_ISLAND | ALBEMARLE, VOLCANO | DARWIN",2,0,0.5835438202636681,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | ECUADOR, ISLAND_GROUP | GALAPAGOS ARCHIPELAGO, OCEAN | PACIFIC, OCEAN_ISLAND | BARTHOLOME",2,1,0.4250950523807109,OIB,0.5,location_root_grouped,location_root
+"COUNTRY | ECUADOR, ISLAND_GROUP | GALAPAGOS ARCHIPELAGO, OCEAN | PACIFIC, OCEAN_ISLAND | BINDLOE, VOLCANO | BINDLOE",1,1,0.6654814456354132,OIB,1.0,location_root_grouped,location_root
+"COUNTRY | ECUADOR, ISLAND_GROUP | GALAPAGOS ARCHIPELAGO, OCEAN | PACIFIC, OCEAN_ISLAND | FLOREANA",1,1,0.4923402160696341,OIB,1.0,location_root_grouped,location_root
+"COUNTRY | ECUADOR, ISLAND_GROUP | GALAPAGOS ARCHIPELAGO, OCEAN | PACIFIC, OCEAN_ISLAND | ISABELA, VOLCANO | ALCEDO",2,0,0.421297278504359,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | ECUADOR, ISLAND_GROUP | GALAPAGOS ARCHIPELAGO, OCEAN | PACIFIC, OCEAN_ISLAND | ISABELA, VOLCANO | CERRO AZUL",1,0,0.4310258075384553,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | ECUADOR, ISLAND_GROUP | GALAPAGOS ARCHIPELAGO, OCEAN | PACIFIC, OCEAN_ISLAND | ISABELA, VOLCANO | SIERRA NEGRA",22,1,0.6703585361017714,OIB,0.045454545454545456,location_root_grouped,location_root
+"COUNTRY | ECUADOR, ISLAND_GROUP | GALAPAGOS ARCHIPELAGO, OCEAN | PACIFIC, OCEAN_ISLAND | ISABELA, VOLCANO | WOLF",1,0,0.7151448208702317,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | ECUADOR, ISLAND_GROUP | GALAPAGOS ARCHIPELAGO, OCEAN | PACIFIC, OCEAN_ISLAND | NAMELESS ROCK",1,1,0.5342015660686502,OIB,1.0,location_root_grouped,location_root
+"COUNTRY | ECUADOR, ISLAND_GROUP | GALAPAGOS ARCHIPELAGO, OCEAN | PACIFIC, OCEAN_ISLAND | NARBOROUGH, VOLCANO | NARBOROUGH",5,0,0.877935391040659,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | ECUADOR, ISLAND_GROUP | GALAPAGOS ARCHIPELAGO, OCEAN | PACIFIC, OCEAN_ISLAND | PINZON",4,3,0.6389289233969921,OIB,0.75,location_root_grouped,location_root
+"COUNTRY | ECUADOR, ISLAND_GROUP | GALAPAGOS ARCHIPELAGO, OCEAN | PACIFIC, OCEAN_ISLAND | RABIDA, VOLCANO | JERVIS",1,0,0.5371983570248793,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | ECUADOR, ISLAND_GROUP | GALAPAGOS ARCHIPELAGO, OCEAN | PACIFIC, OCEAN_ISLAND | SANTA CRUZ",3,1,0.4383750302946006,OIB,0.3333333333333333,location_root_grouped,location_root
+"COUNTRY | ECUADOR, ISLAND_GROUP | GALAPAGOS ARCHIPELAGO, OCEAN | PACIFIC, OCEAN_ISLAND | SANTA CRUZ, VOLCANO | INDEFATIGABLE",5,2,0.5869191118821642,OIB,0.4,location_root_grouped,location_root
+"COUNTRY | ECUADOR, ISLAND_GROUP | GALAPAGOS ARCHIPELAGO, OCEAN | PACIFIC, OCEAN_ISLAND | SANTA FE, VOLCANO | BARRINGTON",2,1,0.5042665482430867,OIB,0.5,location_root_grouped,location_root
+"COUNTRY | ECUADOR, ISLAND_GROUP | GALAPAGOS ARCHIPELAGO, OCEAN | PACIFIC, OCEAN_ISLAND | SANTIAGO",11,3,0.6164437525051029,OIB,0.2727272727272727,location_root_grouped,location_root
+"COUNTRY | ECUADOR, OCEAN | PACIFIC, OCEAN_ISLAND | ESPANOLA, VOLCANO | HOOD",1,0,0.5066730634429497,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | ECUADOR, OCEAN | PACIFIC, OCEAN_ISLAND | GENOVESA, VOLCANO | TOWER",1,1,0.928164231715679,OIB,1.0,location_root_grouped,location_root
+"COUNTRY | ECUADOR, OCEAN | PACIFIC, OCEAN_ISLAND | SANTA FE, VOLCANO | SANTA FE",8,1,0.5814205933189527,OIB,0.125,location_root_grouped,location_root
+"COUNTRY | ECUADOR, OCEAN | PACIFIC, OCEAN_ISLAND | SANTIAGO",1,1,0.7113550275593514,OIB,1.0,location_root_grouped,location_root
+"COUNTRY | ECUADOR, OCEAN | PACIFIC, OCEAN_ISLAND | SANTIAGO, VOLCANO | JAMES",1,0,0.5951618469165512,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | EQUATORIAL GUINEA, OCEAN_ISLAND | ANNOBON",20,0,0.911671708156333,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | EQUATORIAL GUINEA, OCEAN_ISLAND | BIOKO",21,2,0.7630025607199352,OIB,0.09523809523809523,location_root_grouped,location_root
+COUNTRY | ETHIOPIA,6,6,0.738381117096511,CIB,1.0,location_root_grouped,location_root
+"COUNTRY | FEDERATED STATES OF MICRONESIA, OCEAN | PACIFIC, OCEAN_ISLAND | CHUUK",4,1,0.6137328988554953,OIB,0.25,location_root_grouped,location_root
+"COUNTRY | FEDERATED STATES OF MICRONESIA, OCEAN | PACIFIC, OCEAN_ISLAND | KOSRAE",4,1,0.821527828875885,OIB,0.25,location_root_grouped,location_root
+"COUNTRY | FEDERATED STATES OF MICRONESIA, OCEAN | PACIFIC, OCEAN_ISLAND | PONAPE",5,1,0.7472857368298816,OIB,0.2,location_root_grouped,location_root
+"COUNTRY | FIJI, ISLAND_GROUP | FIJI, OCEAN | PACIFIC, OCEAN_ISLAND | DRAVUNI",1,1,0.6490815464567923,OIB,1.0,location_root_grouped,location_root
+"COUNTRY | FIJI, ISLAND_GROUP | FIJI, OCEAN | PACIFIC, OCEAN_ISLAND | NAMARA",1,1,0.6672491342716513,OIB,1.0,location_root_grouped,location_root
+"COUNTRY | FIJI, ISLAND_GROUP | FIJI, OCEAN | PACIFIC, OCEAN_ISLAND | NANUYA-I-RA",1,1,0.6995841982273356,OIB,1.0,location_root_grouped,location_root
+"COUNTRY | FIJI, ISLAND_GROUP | FIJI, OCEAN | PACIFIC, OCEAN_ISLAND | NGALOA",1,1,0.4142476927086977,OIB,1.0,location_root_grouped,location_root
+"COUNTRY | FIJI, ISLAND_GROUP | FIJI, OCEAN | PACIFIC, OCEAN_ISLAND | TAVEUNI",1,1,0.3926746313761756,OIB,1.0,location_root_grouped,location_root
+"COUNTRY | FIJI, ISLAND_GROUP | FIJI, OCEAN | PACIFIC, OCEAN_ISLAND | VANUA LEVU",3,3,0.5982496508112628,OIB,1.0,location_root_grouped,location_root
+"COUNTRY | FIJI, ISLAND_GROUP | FIJI, OCEAN | PACIFIC, OCEAN_ISLAND | VATU-I-CAKE",1,1,0.6994556985952325,OIB,1.0,location_root_grouped,location_root
+"COUNTRY | FIJI, ISLAND_GROUP | FIJI, OCEAN | PACIFIC, OCEAN_ISLAND | VATULELE",1,1,0.600580262176349,OIB,1.0,location_root_grouped,location_root
+"COUNTRY | FIJI, ISLAND_GROUP | FIJI, OCEAN | PACIFIC, OCEAN_ISLAND | VITI LEVU",39,20,0.676037846945218,ARC,0.5128205128205128,location_root_grouped,location_root
+"COUNTRY | FRANCE, FRACTURE_ZONE | AUSTRAL, OCEAN | PACIFIC, OCEAN_ISLAND | RURUTU",2,0,0.7561487385071984,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | FRANCE, ISLAND_GROUP | CROZET ISLANDS, OCEAN | SOUTHERN, OCEAN_ISLAND | CROZET",2,0,0.4550360617915177,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | FRANCE, ISLAND_GROUP | KERGUELEN, OCEAN | SOUTHERN, OCEAN_ISLAND | KERGUELEN",1,0,0.6361936797917023,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | FRANCE, ISLAND_GROUP | MARQUESAS ISLANDS, OCEAN | PACIFIC, OCEAN_ISLAND | FATU HIVA",1,0,0.9462989300498652,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | FRANCE, ISLAND_GROUP | MARQUESAS ISLANDS, OCEAN | PACIFIC, OCEAN_ISLAND | UA HUKA",2,0,0.910280989259913,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | FRANCE, ISLAND_GROUP | MASCARENE, OCEAN | INDIAN, OCEAN_ISLAND | REUNION, VOLCANO | PITON DE LA FOURNAISE",15,0,0.7010054781285409,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | FRANCE, ISLAND_GROUP | SOCIETY, OCEAN | PACIFIC, OCEAN_ISLAND | SOCIETY",3,0,0.7500972178387874,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | FRANCE, OCEAN | INDIAN, OCEAN_ISLAND | REUNION",4,0,0.562476621023948,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | FRANCE, OCEAN_ISLAND | REUNION",12,8,0.4992536659317099,OIB,0.6666666666666666,location_root_grouped,location_root
+"COUNTRY | FRENCH POLYNESIA, ISLAND_GROUP | TUAMOTU ARCHIPELAGO, OCEAN | PACIFIC, OCEAN_ISLAND | FANGATAUFA",42,8,0.5728927875777564,OIB,0.19047619047619047,location_root_grouped,location_root
+COUNTRY | GUATEMALA,8,0,0.8697720262969754,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | GUATEMALA, VOLCANO | CERRO COLORADO",1,0,0.6708675499283159,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | GUATEMALA, VOLCANO | PACAYA",2,0,0.7556541529666909,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | GUATEMALA, VOLCANO | SANTA MARIA",1,0,0.8215036659283668,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | HONDURAS, ISLAND_GROUP | BAY ISLANDS, OCEAN_ISLAND | UTILA",2,0,0.4496157734537688,ARC,0.0,location_root_grouped,location_root
+COUNTRY | INDONESIA,46,46,0.8418489466334793,OIB,1.0,location_root_grouped,location_root
+"COUNTRY | ITALY, CRATON | STROMBOLI",1,0,0.4915878147610206,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | ITALY, OCEAN_ISLAND | SICILY",24,16,0.38137958459657767,ARC,0.6666666666666666,location_root_grouped,location_root
+"COUNTRY | JAPAN, OCEAN | PACIFIC, OCEAN_ISLAND | AOGASHIMA, VOLCANIC_ARC | IZU-BONIN",1,0,0.6944911567948877,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | JAPAN, OCEAN | PACIFIC, OCEAN_ISLAND | MIYAKE JIMA, VOLCANIC_ARC | IZU-BONIN",2,0,0.9027638395388591,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | JAPAN, OCEAN | PACIFIC, OCEAN_ISLAND | OSHIMA, VOLCANIC_ARC | IZU-BONIN",4,0,0.9157536583125616,ARC,0.0,location_root_grouped,location_root
+COUNTRY | MEXICO,2,1,0.5847143809596622,ARC,0.5,location_root_grouped,location_root
+"COUNTRY | MONGOLIA, RIFT | BAIKAL, VOLCANIC_FIELD | TARIAT, VOLCANO | SHAVARYN-TSARAM",1,1,0.5781762119085931,CIB,1.0,location_root_grouped,location_root
+COUNTRY | NICARAGUA,4,0,0.8540876178657434,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | NORTHERN MARIANA ISLANDS, ISLAND_GROUP | MARIANA, OCEAN | PACIFIC, OCEAN_ISLAND | PAGAN",14,0,0.7158186961037108,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | NORTHERN MARIANA ISLANDS, ISLAND_GROUP | MARIANA, OCEAN | PACIFIC, VOLCANIC_ARC | MARIANA, VOLCANO | ANATAHAN",1,0,0.8777619986771062,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | PAPUA NEW GUINEA, OCEAN_ISLAND | NEW GUINEA, VOLCANIC_ARC | BISMARCK",6,0,0.7429310057899373,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | PORTUGAL, ISLAND_GROUP | AZORES, OCEAN | ATLANTIC, OCEAN_ISLAND | SAO MIGUEL",3,0,0.8867871882773776,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | PORTUGAL, ISLAND_GROUP | AZORES, OCEAN | ATLANTIC, OCEAN_ISLAND | TERCEIRA",1,0,0.6614574715519678,OIB,0.0,location_root_grouped,location_root
+COUNTRY | RUSSIA,79,15,0.675007214228895,ARC,0.189873417721519,location_root_grouped,location_root
+"COUNTRY | RUSSIA, ISLAND_GROUP | KOMANDORSKY, OCEAN | PACIFIC, VOLCANIC_ARC | ALEUTIAN, VOLCANO | PIIP",2,0,0.6587845633806815,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | RUSSIA, OCEAN | PACIFIC, OCEAN_ISLAND | ITURUP, VOLCANIC_ARC | KURIL-KAMCHATKA",2,0,0.5275533007286333,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | RUSSIA, OCEAN | PACIFIC, OCEAN_ISLAND | RASSHUA, VOLCANIC_ARC | KURIL-KAMCHATKA",1,0,0.6056026263938924,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | RUSSIA, VOLCANIC_ARC | KAMCHATKA, VOLCANO | MUTNOVSKY",29,0,0.7522220339296934,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | SAMOA, ISLAND_GROUP | SAMOA, OCEAN | PACIFIC, OCEAN_ISLAND | SAMOA",3,0,0.7097971637749688,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | SAMOA, ISLAND_GROUP | SAMOA, OCEAN | PACIFIC, OCEAN_ISLAND | TUTUILA",60,4,0.8420519721268198,OIB,0.06666666666666667,location_root_grouped,location_root
+"COUNTRY | SAO TOME AND PRINCIPE, FRACTURE_ZONE | CAMEROON VOLCANIC LINE, OCEAN | ATLANTIC",2,0,0.8112214047762567,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | SAO TOME AND PRINCIPE, OCEAN_ISLAND | PRINCIPE",15,2,0.6492575747754074,OIB,0.13333333333333333,location_root_grouped,location_root
+"COUNTRY | SAO TOME AND PRINCIPE, OCEAN_ISLAND | SAO TOME",25,0,0.6698931472710798,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | SCOTLAND, LARGE_IGNEOUS_PROVINCE | NORTH ATLANTIC",8,0,0.6553166244068644,CIB,0.0,location_root_grouped,location_root
+"COUNTRY | SCOTLAND, LARGE_IGNEOUS_PROVINCE | NORTH ATLANTIC, OCEAN_ISLAND | RUM",2,0,0.7898341538654026,CIB,0.0,location_root_grouped,location_root
+"COUNTRY | SCOTLAND, LARGE_IGNEOUS_PROVINCE | NORTH ATLANTIC, OCEAN_ISLAND | SKYE",19,0,0.6160662506826606,CIB,0.0,location_root_grouped,location_root
+"COUNTRY | SOLOMON ISLANDS, ISLAND_GROUP | NEW GEORGIA ISLANDS, OCEAN_ISLAND | NEW GEORGIA, VOLCANIC_ARC | SOLOMON",8,0,0.8284664590396189,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | SOLOMON ISLANDS, ISLAND_GROUP | NEW GEORGIA ISLANDS, OCEAN_ISLAND | RANONGGA, VOLCANIC_ARC | SOLOMON",3,1,0.7944347058689302,ARC,0.3333333333333333,location_root_grouped,location_root
+"COUNTRY | SOLOMON ISLANDS, ISLAND_GROUP | NEW GEORGIA ISLANDS, OCEAN_ISLAND | RENDOVA, VOLCANIC_ARC | SOLOMON",4,0,0.7110420904183326,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | SOLOMON ISLANDS, ISLAND_GROUP | NEW GEORGIA ISLANDS, OCEAN_ISLAND | TINAKULA, VOLCANIC_ARC | SOLOMON",2,0,0.7338582463941503,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | SOLOMON ISLANDS, ISLAND_GROUP | NEW GEORGIA ISLANDS, OCEAN_ISLAND | VANGUNU, VOLCANIC_ARC | SOLOMON",3,0,0.7322006772255905,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | SOLOMON ISLANDS, ISLAND_GROUP | NEW GEORGIA ISLANDS, OCEAN_ISLAND | VANIKORO, VOLCANIC_ARC | SOLOMON",1,0,0.8978779457806155,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | SOLOMON ISLANDS, ISLAND_GROUP | SANTA CRUZ ISLANDS, OCEAN_ISLAND | UTUPUA, VOLCANIC_ARC | SOLOMON",4,0,0.8562590733087198,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | SOLOMON ISLANDS, ISLAND_GROUP | SANTA CRUZ ISLANDS, OCEAN_ISLAND | VANIKORO, VOLCANIC_ARC | SOLOMON",3,0,0.9389194729000024,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | SOLOMON ISLANDS, ISLAND_GROUP | SHORTLANS ISLANDS, OCEAN_ISLAND | FAURO, VOLCANIC_ARC | SOLOMON",1,0,0.5189805675737067,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | SOLOMON ISLANDS, OCEAN_ISLAND | GHIZO, VOLCANIC_ARC | SOLOMON",2,0,0.5769898418537134,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | SPAIN, ISLAND_GROUP | CANARY ISLANDS, OCEAN | ATLANTIC, OCEAN_ISLAND | EL HIERRO",3,1,0.5657998238861612,OIB,0.3333333333333333,location_root_grouped,location_root
+"COUNTRY | SPAIN, ISLAND_GROUP | CANARY ISLANDS, OCEAN | ATLANTIC, OCEAN_ISLAND | LA PALMA",9,6,0.6896590055896712,OIB,0.6666666666666666,location_root_grouped,location_root
+"COUNTRY | SPAIN, ISLAND_GROUP | CANARY ISLANDS, OCEAN | ATLANTIC, OCEAN_ISLAND | TENERIFE",2,0,0.8788739335592564,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | TAIWAN, OCEAN | PACIFIC, OCEAN_ISLAND | LUTAO",2,1,0.5388158435232422,ARC,0.5,location_root_grouped,location_root
+COUNTRY | TURKEY,1,1,0.32898117963288753,ARC,1.0,location_root_grouped,location_root
+"COUNTRY | UNITED KINGDOM, ISLAND_GROUP | TRISTAN DA CUNHA GROUP, OCEAN | ATLANTIC, OCEAN_ISLAND | TRISTAN",2,0,0.5898140941100973,OIB,0.0,location_root_grouped,location_root
+COUNTRY | UNITED STATES,10,5,0.4470025162100494,ARC,0.5,location_root_grouped,location_root
+"COUNTRY | UNITED STATES, ISLAND_GROUP | HAWAII, OCEAN | PACIFIC, OCEAN_ISLAND | OAHU",88,26,0.5999829487379725,OIB,0.29545454545454547,location_root_grouped,location_root
+"COUNTRY | UNITED STATES, ISLAND_GROUP | HAWAIIAN, OCEAN | PACIFIC, OCEAN_ISLAND | HAWAII",14,1,0.689754692442811,OIB,0.07142857142857142,location_root_grouped,location_root
+"COUNTRY | UNITED STATES, ISLAND_GROUP | HAWAIIAN, OCEAN_ISLAND | HAWAII, VOLCANO | MAUNA KEA",1,0,0.7809657423258318,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | UNITED STATES, OCEAN | PACIFIC",5,0,0.8224097623897315,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | UNITED STATES, OCEAN | PACIFIC, OCEAN_ISLAND | ADAK",4,0,0.7002228197092589,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | UNITED STATES, OCEAN | PACIFIC, OCEAN_ISLAND | ADAK, VOLCANIC_ARC | ALEUTIAN, VOLCANO | SHISHALDIN",10,2,0.5459128813326897,ARC,0.2,location_root_grouped,location_root
+"COUNTRY | UNITED STATES, OCEAN | PACIFIC, OCEAN_ISLAND | GREAT SITKIN",1,0,0.5573220289732304,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | UNITED STATES, OCEAN | PACIFIC, OCEAN_ISLAND | NIKOLSKI, VOLCANIC_ARC | ALEUTIAN, VOLCANO | BOGOSLOF",1,0,0.6695031082861805,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | UNITED STATES, OCEAN | PACIFIC, OCEAN_ISLAND | OAHU",2,0,0.6077887920223232,OIB,0.0,location_root_grouped,location_root
+"COUNTRY | UNITED STATES, OCEAN | PACIFIC, OCEAN_ISLAND | UNALASKA, VOLCANIC_ARC | ALEUTIAN",4,0,0.49858706956920756,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | UNITED STATES, OCEAN | PACIFIC, OCEAN_ISLAND | UNIMAK, VOLCANIC_ARC | ALEUTIAN, VOLCANO | SHISHALDIN",1,0,0.6680766631987223,ARC,0.0,location_root_grouped,location_root
+"COUNTRY | VANUATU, OCEAN | PACIFIC, OCEAN_ISLAND | TANNA",3,0,0.7048639167921261,ARC,0.0,location_root_grouped,location_root
+EAST AFRICAN,6,0,0.6644854422966316,CIB,0.0,location_root_grouped,location_root
+EAST AFRICAN RIFT,361,355,0.6061361399646474,CIB,0.9833795013850416,location_root_grouped,location_root
+EAST PACIFIC RISE,899,2,0.9180999954445661,MORB,0.002224694104560623,location_root_grouped,location_root
+EAST PACIFIC RISE | MID-ATLANTIC RIDGE,14,0,0.9442201480437833,MORB,0.0,location_root_grouped,location_root
+EASTER MICROPLATE RIFTS,5,0,0.9370961779041792,MORB,0.0,location_root_grouped,location_root
+EXPLORER RIDGE,91,0,0.744258544071739,MORB,0.0,location_root_grouped,location_root
+"FRACTURE_ZONE | AUSTRAL, ISLAND_GROUP | AUSTRAL-COOK, OCEAN | PACIFIC, OCEAN_ISLAND | MANGAIA, VOLCANO | MANGAIA",2,1,0.6958862725304635,OIB,0.5,location_root_grouped,location_root
+"FRACTURE_ZONE | AUSTRAL, ISLAND_GROUP | AUSTRAL-COOK, OCEAN | PACIFIC, OCEAN_ISLAND | RAIVAVAE",14,7,0.4584247112801631,OIB,0.5,location_root_grouped,location_root
+"FRACTURE_ZONE | AUSTRAL, ISLAND_GROUP | COOK ISLANDS, OCEAN | PACIFIC, OCEAN_ISLAND | MANGAIA",3,0,0.6309513745651357,OIB,0.0,location_root_grouped,location_root
+"FRACTURE_ZONE | AUSTRAL, ISLAND_GROUP | COOK, OCEAN | PACIFIC, OCEAN_ISLAND | AITUTAKI",3,0,0.776343755359637,OIB,0.0,location_root_grouped,location_root
+"FRACTURE_ZONE | AUSTRAL, ISLAND_GROUP | COOK, OCEAN | PACIFIC, OCEAN_ISLAND | ATIU",5,2,0.6076148046581112,OIB,0.4,location_root_grouped,location_root
+"FRACTURE_ZONE | AUSTRAL, OCEAN | PACIFIC",4,1,0.8055475454369463,OIB,0.25,location_root_grouped,location_root
+"FRACTURE_ZONE | AUSTRAL, OCEAN | PACIFIC, OCEAN_ISLAND | MANGAIA",3,0,0.9633973675390388,OIB,0.0,location_root_grouped,location_root
+"FRACTURE_ZONE | AUSTRAL, OCEAN | PACIFIC, OCEAN_ISLAND | OLD RURUTU",5,0,0.7454698498124717,OIB,0.0,location_root_grouped,location_root
+"FRACTURE_ZONE | AUSTRAL, OCEAN | PACIFIC, OCEAN_ISLAND | RAROTONGA",5,0,0.8986671715432326,OIB,0.0,location_root_grouped,location_root
+"FRACTURE_ZONE | AUSTRAL, OCEAN | PACIFIC, OCEAN_ISLAND | TUBUAI",5,3,0.5264826598671597,OIB,0.6,location_root_grouped,location_root
+"FRACTURE_ZONE | AUSTRAL, OCEAN | PACIFIC, OCEAN_ISLAND | YOUNG RURUTU",1,0,0.876036737729432,OIB,0.0,location_root_grouped,location_root
+"FRACTURE_ZONE | SOUTHWEST INDIAN RIDGE, OCEAN | INDIAN",30,0,0.9232684602001612,MORB,0.0,location_root_grouped,location_root
+GAKKEL RIDGE,36,0,0.8138765224821223,MORB,0.0,location_root_grouped,location_root
+GALAPAGOS,529,161,0.6302369368620916,OIB,0.30434782608695654,location_root_grouped,location_root
+GALAPAGOS | GALAPAGOS SPREADING CENTER,6,0,0.9684315971783306,MORB,0.0,location_root_grouped,location_root
+GORDA RIDGE,27,0,0.9856494454485135,MORB,0.0,location_root_grouped,location_root
+GULF OF ADEN,19,1,0.8014828239045734,MORB,0.05263157894736842,location_root_grouped,location_root
+GULF OF CALIFORNIA,13,0,0.6990158382799403,MORB,0.0,location_root_grouped,location_root
+"ISLAND_GROUP | ALEUTIANS, OCEAN | PACIFIC, SEAMOUNT | DWIGHT EAST, VOLCANIC_ARC | ALEUTIAN",7,0,0.9867547015759623,ARC,0.0,location_root_grouped,location_root
+"ISLAND_GROUP | ALEUTIANS, OCEAN | PACIFIC, SEAMOUNT | MICKEY MOUSE, VOLCANIC_ARC | ALEUTIAN",15,0,0.9502598301401952,ARC,0.0,location_root_grouped,location_root
+"ISLAND_GROUP | ALEUTIANS, OCEAN | PACIFIC, SEAMOUNT | UP SOUTH, VOLCANIC_ARC | ALEUTIAN",5,0,0.9324629573778973,ARC,0.0,location_root_grouped,location_root
+"ISLAND_GROUP | CROZET ISLANDS, OCEAN | INDIAN, OCEAN_ISLAND | EAST",3,0,0.8448397579296856,OIB,0.0,location_root_grouped,location_root
+"ISLAND_GROUP | CROZET ISLANDS, OCEAN | INDIAN, OCEAN_ISLAND | PENGUINS",3,0,0.6938353616247563,OIB,0.0,location_root_grouped,location_root
+"ISLAND_GROUP | CROZET ISLANDS, OCEAN | INDIAN, OCEAN_ISLAND | POSSESSION",5,0,0.6157844847195195,OIB,0.0,location_root_grouped,location_root
+"ISLAND_GROUP | GOUGH CHAIN, OCEAN | ATLANTIC, OCEAN_ISLAND | GOUGH",3,0,0.6514778868982963,OIB,0.0,location_root_grouped,location_root
+"ISLAND_GROUP | NORTHERN MARIANA ISLANDS, OCEAN | PACIFIC, OCEAN_ISLAND | ALAMAGAN",1,0,0.9943860243749587,ARC,0.0,location_root_grouped,location_root
+"ISLAND_GROUP | SOCIETY, OCEAN | PACIFIC, OCEAN_ISLAND | TAHAA",22,0,0.7767923334365066,OIB,0.0,location_root_grouped,location_root
+"ISLAND_GROUP | TRISTAN DA CUNHA GROUP, OCEAN | ATLANTIC, OCEAN_ISLAND | INACCESSIBLE",1,0,0.39885230915041864,OIB,0.0,location_root_grouped,location_root
+"ISLAND_GROUP | TRISTAN DA CUNHA GROUP, OCEAN | ATLANTIC, OCEAN_ISLAND | TRISTAN",2,0,0.6137923883745666,OIB,0.0,location_root_grouped,location_root
+"ISLAND_GROUP | TRISTAN DA CUNHA, OCEAN | ATLANTIC, OCEAN_ISLAND | TRISTAN",2,0,0.6466732355904418,OIB,0.0,location_root_grouped,location_root
+JUAN DE FUCA RIDGE,309,2,0.8663538127565686,MORB,0.006472491909385114,location_root_grouped,location_root
+KOLBEINSEY RIDGE,32,1,0.7225786662216803,MORB,0.03125,location_root_grouped,location_root
+LARGE_IGNEOUS_PROVINCE | CAMP,8,8,0.4574179829896109,CIB,1.0,location_root_grouped,location_root
+MENDOCINO RIDGE,1,0,0.9818276449504622,MORB,0.0,location_root_grouped,location_root
+MID-ATLANTIC RIDGE,916,181,0.8212095244068912,MORB,0.19759825327510916,location_root_grouped,location_root
+MID-ATLANTIC RIDGE | SOUTHWEST INDIAN RIDGE,1,0,0.5749934995503854,MORB,0.0,location_root_grouped,location_root
+MOHNS RIDGE,16,5,0.6618364100112236,MORB,0.3125,location_root_grouped,location_root
+OCEAN | ATLANTIC,20,0,0.7236212804773181,OIB,0.0,location_root_grouped,location_root
+"OCEAN | ATLANTIC, OCEAN_ISLAND | SAINT HELENA",37,2,0.544503842413009,OIB,0.05405405405405406,location_root_grouped,location_root
+"OCEAN | ATLANTIC, OCEAN_ISLAND | SAINT HELENA, VOLCANO | NORTH EAST",18,1,0.66241272166376,OIB,0.05555555555555555,location_root_grouped,location_root
+"OCEAN | ATLANTIC, OCEAN_ISLAND | SAINT HELENA, VOLCANO | SOUTH WEST",23,3,0.5292470164318263,OIB,0.13043478260869565,location_root_grouped,location_root
+OCEAN | PACIFIC,22,3,0.853121594812762,ARC,0.13636363636363635,location_root_grouped,location_root
+"OCEAN | PACIFIC, OCEAN_ISLAND | ADAK, VOLCANIC_ARC | ALEUTIAN, VOLCANO | KANAGA",5,0,0.7469516137367221,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, OCEAN_ISLAND | ADAK, VOLCANIC_ARC | ALEUTIAN, VOLCANO | MOUNT MOFFETT",1,0,0.8987533643359976,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, OCEAN_ISLAND | AKUTAN, VOLCANIC_ARC | ALEUTIAN, VOLCANO | AKUTAN",8,0,0.7028422332479592,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, OCEAN_ISLAND | ATKA, VOLCANIC_ARC | ALEUTIAN, VOLCANO | ATKA",4,0,0.6069028026839163,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, OCEAN_ISLAND | ATKA, VOLCANIC_ARC | ALEUTIAN, VOLCANO | KOROVIN",14,0,0.8745156328708678,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, OCEAN_ISLAND | ATKA, VOLCANIC_ARC | ALEUTIAN, VOLCANO | SEGUAM",3,0,0.9405385506203846,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, OCEAN_ISLAND | BOGOSLOF, VOLCANIC_ARC | ALEUTIAN, VOLCANO | BOGOSLOF",1,0,0.6895924345694857,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, OCEAN_ISLAND | GREAT SITKIN, VOLCANIC_ARC | ALEUTIAN, VOLCANO | GREAT SITKIN",2,0,0.9303594656503653,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, OCEAN_ISLAND | HAWAII",54,2,0.5696571176368054,OIB,0.037037037037037035,location_root_grouped,location_root
+"OCEAN | PACIFIC, OCEAN_ISLAND | KASATOCHI, VOLCANIC_ARC | ALEUTIAN, VOLCANO | KASATOCHI",1,0,0.8589717182453013,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, OCEAN_ISLAND | LITTLE SITKIN, VOLCANIC_ARC | ALEUTIAN, VOLCANO | LITTLE SITKIN",1,0,0.936415557612308,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, OCEAN_ISLAND | MAKUSHIN, VOLCANIC_ARC | ALEUTIAN, VOLCANO | UNALASKA",1,0,0.947501066193818,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, OCEAN_ISLAND | NIKOLSKI, VOLCANIC_ARC | ALEUTIAN, VOLCANO | OKMOK",3,0,0.7640099003646506,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, OCEAN_ISLAND | RAPA NUI, SEAMOUNT_CHAIN | EASTER SALAS Y GOMEZ",2,0,0.44838070192752677,OIB,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, OCEAN_ISLAND | ROSE ATOLL",1,0,0.5983370766362159,OIB,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, OCEAN_ISLAND | SALAS Y GOMEZ, SEAMOUNT_CHAIN | EASTER SALAS Y GOMEZ",4,2,0.39260670232469913,OIB,0.5,location_root_grouped,location_root
+"OCEAN | PACIFIC, OCEAN_ISLAND | SEGUAM, VOLCANIC_ARC | ALEUTIAN",11,0,0.9445503455537597,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, OCEAN_ISLAND | SEGUAM, VOLCANIC_ARC | ALEUTIAN, VOLCANO | SEGUAM",6,0,0.8129114597303079,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, OCEAN_ISLAND | SEGULA, VOLCANIC_ARC | ALEUTIAN, VOLCANO | SEGULA",1,0,0.9692188105040508,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, OCEAN_ISLAND | UMNAK, VOLCANIC_ARC | ALEUTIAN, VOLCANO | OKMOK",8,0,0.8751884538392934,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, OCEAN_ISLAND | UNIMAK, VOLCANIC_ARC | ALEUTIAN, VOLCANO | SHISHALDIN",6,0,0.6903946729975968,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, SEAMOUNT | AHYI, VOLCANIC_ARC | BONIN ARC",3,0,0.6981027372097127,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, SEAMOUNT | CHEREF",3,0,0.9713928742545894,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, SEAMOUNT | EIFUKU, VOLCANIC_ARC | BONIN ARC",1,0,0.9183409883157218,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, SEAMOUNT | FUKUJIN",2,0,0.7532713567358413,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, SEAMOUNT | FUKUYAMA",1,0,0.7405475383032933,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, SEAMOUNT | ICHIYO",1,0,0.9622240465392942,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, SEAMOUNT | NIKKO",4,0,0.8213608722893386,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, SEAMOUNT | RUMBLE II",1,0,0.8406629723703689,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, SEAMOUNT | RUMBLE III",1,0,0.888521488368224,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, SEAMOUNT | RUMBLE IV",1,0,0.8633967717892886,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, SEAMOUNT | RUMBLE IV, VOLCANIC_ARC | TONGA-KERMADEC",3,0,0.9260466592448511,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, SEAMOUNT | RUMBLE V, VOLCANIC_ARC | TONGA-KERMADEC",3,0,0.9381829351814018,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, SEAMOUNT | SOUTH HIYOSHI, VOLCANIC_ARC | BONIN ARC",1,0,0.6738925410995054,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, SEAMOUNT | SUPPLY REEF",1,0,0.880016669810796,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, VOLCANIC_ARC | ALEUTIAN",13,0,0.910676494525497,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, VOLCANIC_ARC | ALEUTIAN, VOLCANO | ATKA",1,0,0.9294852358938878,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, VOLCANIC_ARC | ALEUTIAN, VOLCANO | KASATOCHI",1,0,0.9112096266667551,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, VOLCANIC_ARC | ALEUTIAN, VOLCANO | KISKA",1,0,0.7777963116993801,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, VOLCANIC_ARC | ALEUTIAN, VOLCANO | KOROVIN",1,0,0.894496395359857,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, VOLCANIC_ARC | ALEUTIAN, VOLCANO | LITTLE PAVLOF",1,0,0.9508546407527921,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, VOLCANIC_ARC | ALEUTIAN, VOLCANO | MOUNT KLIUCHEF",2,0,0.9209786512844613,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, VOLCANIC_ARC | ALEUTIAN, VOLCANO | PAVLOF",2,0,0.7066461207927943,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, VOLCANIC_ARC | ALEUTIAN, VOLCANO | UKINREK",5,0,0.6285359372257966,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, VOLCANIC_ARC | ALEUTIAN, VOLCANO | WESTDAHL",1,0,0.7985331215613758,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, VOLCANIC_ARC | IZU-BONIN-MARIANA",102,42,0.6149038304369406,ARC,0.4117647058823529,location_root_grouped,location_root
+"OCEAN | PACIFIC, VOLCANIC_ARC | MARIANA, VOLCANO | ANATAHAN",1,0,0.9122070360261112,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, VOLCANIC_ARC | TONGA-KERMADEC, VOLCANO | MONOWAI",12,0,0.8754761784373087,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, VOLCANIC_ARC | TONGA-KERMADEC, VOLCANO | RAOUL",2,0,0.9171776062695186,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, VOLCANO | HERALD",7,0,0.7305493895640119,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, VOLCANO | LESPERANCE",1,0,0.9363723625099235,ARC,0.0,location_root_grouped,location_root
+"OCEAN | PACIFIC, VOLCANO | MACAULEY",7,0,0.7395826625929229,ARC,0.0,location_root_grouped,location_root
+"OCEAN | SOUTHERN, SEA | SCOTIA",12,0,0.7890445070338546,ARC,0.0,location_root_grouped,location_root
+"OCEAN_ISLAND | BERING, VOLCANIC_ARC | ALEUTIAN",1,0,0.5816153779355546,ARC,0.0,location_root_grouped,location_root
+"OCEAN_ISLAND | MEDNY, VOLCANIC_ARC | ALEUTIAN",3,0,0.6129589812193235,ARC,0.0,location_root_grouped,location_root
+PACIFIC-ANTARCTIC RIDGE,31,0,0.9056838650040662,MORB,0.0,location_root_grouped,location_root
+RED SEA,104,23,0.6091286151675374,MORB,0.22115384615384615,location_root_grouped,location_root
+REYKJANES RIDGE,198,2,0.8677560116407308,MORB,0.010101010101010102,location_root_grouped,location_root
+SEA | LABRADOR,14,0,0.9242051513708585,MORB,0.0,location_root_grouped,location_root
+SEAMOUNT | NICHIYO,7,0,0.7562003374291498,ARC,0.0,location_root_grouped,location_root
+SOUTHEAST INDIAN RIDGE,173,0,0.9285244379425805,MORB,0.0,location_root_grouped,location_root
+SOUTHWEST INDIAN RIDGE,194,20,0.7466786704508076,MORB,0.10309278350515463,location_root_grouped,location_root
+VALU FA RIDGE,1,1,0.6058576057726038,MORB,1.0,location_root_grouped,location_root
+VOLCANIC_ARC | ALEUTIAN,2,0,0.8973076002254621,ARC,0.0,location_root_grouped,location_root
+"VOLCANIC_ARC | ALEUTIAN, VOLCANO | ANIAKCHAK",2,0,0.522922245366741,ARC,0.0,location_root_grouped,location_root
+"VOLCANIC_ARC | ALEUTIAN, VOLCANO | KATMAI",6,0,0.9155690614436001,ARC,0.0,location_root_grouped,location_root
+WEST ANTARCTIC,40,22,0.6668781765437226,CIB,0.55,location_root_grouped,location_root

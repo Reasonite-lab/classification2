@@ -1,0 +1,32 @@
+{
+  "training_dataset": "data/processed/petdb_primary4_v0_1.parquet",
+  "external_dataset": "data/processed/la_palma_2021_oib_external_v0_1.parquet",
+  "publication_doi": "10.1016/j.epsl.2022.117793",
+  "features": [
+    "SIO2(WT%)",
+    "TIO2(WT%)",
+    "AL2O3(WT%)",
+    "FEOT(WT%)",
+    "CAO(WT%)",
+    "MGO(WT%)",
+    "MNO(WT%)",
+    "K2O(WT%)",
+    "NA2O(WT%)",
+    "P2O5(WT%)",
+    "RB(PPM)",
+    "SR(PPM)",
+    "Y(PPM)",
+    "ZR(PPM)",
+    "NB(PPM)",
+    "LA(PPM)",
+    "CE(PPM)",
+    "ND(PPM)"
+  ],
+  "models": [
+    "logistic_balanced",
+    "random_forest_balanced"
+  ],
+  "external_n": 39,
+  "stage_policy": "Day 1-20 and post-day-20 groups follow the publication's interpreted transition from fractionated tephrite to more primitive basanite.",
+  "scope_caveat": "Samples are a temporally resolved single-eruption cohort. Stage contrasts are mechanism diagnostics, not independent province replication."
+}

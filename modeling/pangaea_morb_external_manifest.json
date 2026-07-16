@@ -1,0 +1,48 @@
+{
+  "training_dataset": "data/processed/petdb_primary4_v0_1.parquet",
+  "training_rows": 6148,
+  "training_class_counts": {
+    "MORB": 3650,
+    "OIB": 1281,
+    "ARC": 754,
+    "CIB": 463
+  },
+  "external_dataset": "data/processed/pangaea_morb_external_v0_1.parquet",
+  "external_profile": {
+    "PANGAEA.727391": {
+      "aggregated_samples": 19,
+      "complete_major10": 16,
+      "silica_40_55": 19,
+      "total_85_105": 16,
+      "model_ready_external": 16
+    },
+    "PANGAEA.707361": {
+      "aggregated_samples": 2,
+      "complete_major10": 2,
+      "silica_40_55": 2,
+      "total_85_105": 2,
+      "model_ready_external": 2
+    }
+  },
+  "external_test_rows": 18,
+  "features": [
+    "SIO2(WT%)",
+    "TIO2(WT%)",
+    "AL2O3(WT%)",
+    "FEOT(WT%)",
+    "CAO(WT%)",
+    "MGO(WT%)",
+    "MNO(WT%)",
+    "K2O(WT%)",
+    "NA2O(WT%)",
+    "P2O5(WT%)"
+  ],
+  "accepted_sources": [
+    "PANGAEA.727391",
+    "PANGAEA.707361"
+  ],
+  "excluded_source": {
+    "PANGAEA.956077": "Publication citation is present in the PetDB MORB export; excluded to avoid source overlap."
+  },
+  "scope_caveat": "Pilot one-class external MORB stress test on glass/glass-inclusion data. It estimates MORB recall only and is not a four-class external macro-performance estimate."
+}

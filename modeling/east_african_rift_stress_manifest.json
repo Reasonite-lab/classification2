@@ -1,0 +1,39 @@
+{
+  "purpose": "Geology-led external province stress test. All East African Rift samples are excluded from training; class probabilities are treated as geochemical affinities rather than proof that the database tectonic label is wrong.",
+  "training_rows": 5787,
+  "test_rows": 361,
+  "test_actual_counts": {
+    "CIB": 347,
+    "MORB": 14
+  },
+  "features": [
+    "SIO2(WT%)",
+    "TIO2(WT%)",
+    "AL2O3(WT%)",
+    "FEOT(WT%)",
+    "CAO(WT%)",
+    "MGO(WT%)",
+    "MNO(WT%)",
+    "K2O(WT%)",
+    "NA2O(WT%)",
+    "P2O5(WT%)",
+    "V(PPM)",
+    "CR(PPM)",
+    "NI(PPM)",
+    "RB(PPM)",
+    "SR(PPM)",
+    "Y(PPM)",
+    "ZR(PPM)",
+    "NB(PPM)",
+    "LA(PPM)",
+    "CE(PPM)",
+    "ND(PPM)"
+  ],
+  "models": [
+    "logistic_balanced",
+    "random_forest_balanced"
+  ],
+  "uncertainty": "95% percentile intervals from 2,000 cluster bootstrap resamples of citation sets; this preserves within-publication dependence better than sample-wise bootstrap.",
+  "transition_index": "p(OIB) / [p(OIB) + p(CIB)]",
+  "interpretation_caveat": "High OIB affinity is consistent with a rift-plume/source-mixing continuum, but the classifier and bulk-rock medians cannot uniquely separate mantle source, melt fraction, fractionation, crustal interaction, alteration, or analytical/literature selection."
+}

@@ -1,0 +1,3 @@
+model,feature_set,validation,n,accuracy,balanced_accuracy,macro_f1,log_loss
+logistic_balanced,common18_figshare,citation_overlap_conservative,6148,0.7906636304489265,0.7018690015878326,0.6851391564394813,0.7497483806525912
+random_forest_balanced,common18_figshare,citation_overlap_conservative,6148,0.852309694209499,0.7540332588093535,0.7561182220478967,0.46456133996769483

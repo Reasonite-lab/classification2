@@ -1,0 +1,53 @@
+{
+  "dataset": "data\\processed\\petdb_primary4_v0_1.parquet",
+  "rows": 6148,
+  "class_counts": {
+    "MORB": 3650,
+    "OIB": 1281,
+    "ARC": 754,
+    "CIB": 463
+  },
+  "features": [
+    "SIO2(WT%)",
+    "TIO2(WT%)",
+    "AL2O3(WT%)",
+    "FEOT(WT%)",
+    "CAO(WT%)",
+    "MGO(WT%)",
+    "MNO(WT%)",
+    "K2O(WT%)",
+    "NA2O(WT%)",
+    "P2O5(WT%)",
+    "V(PPM)",
+    "CR(PPM)",
+    "NI(PPM)",
+    "RB(PPM)",
+    "SR(PPM)",
+    "Y(PPM)",
+    "ZR(PPM)",
+    "NB(PPM)",
+    "LA(PPM)",
+    "CE(PPM)",
+    "ND(PPM)",
+    "TH(PPM)"
+  ],
+  "labels": [
+    "ARC",
+    "CIB",
+    "MORB",
+    "OIB"
+  ],
+  "random_seed": 20260714,
+  "models": [
+    "dummy_prior",
+    "logistic_balanced",
+    "random_forest_balanced"
+  ],
+  "cv_strategies": [
+    "random_stratified",
+    "citation_set_grouped",
+    "citation_overlap_conservative",
+    "location_root_grouped"
+  ],
+  "interpretation": "PetDB now contains all four labels, so class is no longer deterministically mapped to database source. Citation- and location-grouped estimates remain the appropriate primary evidence; random-row scores are optimistic sensitivity checks."
+}

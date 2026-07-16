@@ -1,0 +1,32 @@
+{
+  "dataset": "data\\processed\\georoc_primary3_v0_1.parquet",
+  "cohort_rows": 43005,
+  "features": [
+    "SIO2(WT%)",
+    "TIO2(WT%)",
+    "AL2O3(WT%)",
+    "FEOT(WT%)",
+    "CAO(WT%)",
+    "MGO(WT%)",
+    "MNO(WT%)",
+    "K2O(WT%)",
+    "NA2O(WT%)",
+    "P2O5(WT%)",
+    "V(PPM)",
+    "CR(PPM)",
+    "NI(PPM)",
+    "RB(PPM)",
+    "SR(PPM)",
+    "Y(PPM)",
+    "ZR(PPM)",
+    "NB(PPM)",
+    "LA(PPM)",
+    "CE(PPM)",
+    "ND(PPM)",
+    "TH(PPM)"
+  ],
+  "permutation_validation": "five-fold citation-set grouped; up to 4000 held-out records per fold; four repeats",
+  "shap_model": "full-cohort descriptive balanced random forest, 100 trees",
+  "shap_sample_rows": 500,
+  "caveat": "Correlated elements share or mask importance; SHAP direction is associative, not causal."
+}

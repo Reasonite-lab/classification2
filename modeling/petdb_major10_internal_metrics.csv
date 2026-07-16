@@ -1,0 +1,3 @@
+model,feature_set,validation,n,accuracy,balanced_accuracy,macro_f1
+logistic_balanced,major10,citation_overlap_conservative,6148,0.7874105400130124,0.7332320621305137,0.7026807906560829
+random_forest_balanced,major10,citation_overlap_conservative,6148,0.8487312947299935,0.7663142051077848,0.7611004388453757
