@@ -1,0 +1,9 @@
+province,location_pattern,convergent_margin_rows,model_ready_common18,location_n,citation_id_n,citation_id_mapped_n,publication_overlap_petdb_n,exact_sample_name_collision_n,latitude_min,latitude_max,longitude_min,longitude_max
+High Cascades,CASCADES / HIGH CASCADES,1483,481,38,74,74,0,0,39.1812,50.93,-123.59,-119.9688
+Central America southeastern segment,CENTRAL AMERICAN VOLCANIC ARC / CENTRAL AMERICAN VOLCANIC ARC-SOUTHEASTERN SEGMENT,588,321,26,19,19,0,0,7.2133026,10.9342,-85.261,-77.928
+South Shetland Islands,SCOTIA ARC / SOUTH SHETLAND ISLANDS,464,95,13,16,15,0,0,-63.0,-62.03,-61.25,-56.45
+Southern Andean Volcanic Zone,ANDEAN ARC / SOUTHERN ANDEAN VOLCANIC ZONE,2199,1137,144,112,108,3,0,-47.0,-24.1680555555556,-75.83,-67.08
+Central America northwestern segment,CENTRAL AMERICAN VOLCANIC ARC / CENTRAL AMERICAN VOLCANIC ARC-NORTHWESTERN SEGMENT,808,292,51,59,59,4,0,10.467,16.1193,-92.15,-83.0463
+Tonga islands,TONGA ARC / TONGA ISLANDS,510,237,15,41,40,4,0,-22.33,-15.6,-179.416,-173.7
+Kamchatka arc front,KAMCHATKA ARC / KAMCHATKA ARC,1982,837,48,84,81,6,0,51.4454,63.0,156.0,171.1
+Central Aleutian arc,ALEUTIAN ARC / CENTRAL ALEUTIAN ARC,442,180,20,10,10,6,0,51.691788,53.43,-178.01,168.13

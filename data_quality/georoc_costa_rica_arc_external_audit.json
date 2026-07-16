@@ -1,0 +1,47 @@
+{
+  "source_dataset_doi": "10.25625/2JETOA",
+  "source_version": "2026-06-01",
+  "source_license": "CC BY-SA 4.0",
+  "source_index": "data\\interim\\georoc_basalt_core_index.csv.gz",
+  "selection_base": "CENTRAL AMERICAN VOLCANIC ARC / CENTRAL AMERICAN VOLCANIC ARC-SOUTHEASTERN SEGMENT / COSTA RICA /",
+  "named_volcanic_centers": [
+    "IRAZU",
+    "POAS (POAZ)",
+    "MIRAVALLES",
+    "TURRIALBA",
+    "PLATANAR"
+  ],
+  "raw_named_center_rows": 193,
+  "strict_model_ready_common18": 18,
+  "center_counts": {
+    "IRAZU": 7,
+    "MIRAVALLES": 6,
+    "TURRIALBA": 5
+  },
+  "publication_group_counts": {
+    "22129": 6,
+    "5026": 5,
+    "19730": 3,
+    "5812": 1,
+    "10939": 1,
+    "2491|3439|5812|4190|3375": 1,
+    "2491|3439|5812|4190": 1
+  },
+  "publication_overlap_petdb_n": 0,
+  "exact_sample_name_collision_n": 0,
+  "petdb_named_center_location_rows": 0,
+  "latitude_range": [
+    9.983,
+    10.776
+  ],
+  "longitude_range": [
+    -85.261,
+    -83.76451
+  ],
+  "major_total_range": [
+    96.38000000000001,
+    100.35
+  ],
+  "selection_policy": "GEOROC strict whole-rock volcanic basalt candidates assigned to the convergent margin and five named Costa Rica volcanic-front centers; SiO2 40-55 wt%, positive complete common18, major total 90-105 wt%. Broad country-level rows, old arc terranes, forearc complexes, plateau and accreted seamount records are excluded.",
+  "scope_caveat": "A multi-publication active-arc province proxy. Publication and exact-name overlap are excluded; geographic overlap by volcano name is retained as a separate audit because it does not establish sample identity."
+}

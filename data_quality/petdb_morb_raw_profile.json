@@ -1,0 +1,162 @@
+{
+  "dataset": "PetDB 2.0 MORB export",
+  "export_id": "earthchem_export_jul14_26_14620",
+  "export_datetime_utc": "2026-07-14T14:07:56.434Z",
+  "source_url": "https://earthchem-search-export-production.s3.us-east-2.amazonaws.com/earthchem_export_jul14_26_14620.zip",
+  "query_url": "https://www.earthchem.org/petdb?analysisTypes=rock%3A%3A%5BWHOLE+ROCK%5D&tectonicSettings=SPREADING+CENTER&taxons=igneous%3Avolcanic%3Amafic%3A%3A%5BBASALT%5D&outputMetadata=all&timestamp=1784037977190",
+  "archive": {
+    "path": "data\\raw\\petdb_morb\\earthchem_export_jul14_26_14620.zip",
+    "bytes": 57677488,
+    "sha256": "24cbc5c90410248790c3560a82aa599a39a4032a24ab762b72db198a6363eb05",
+    "md5": "210133d92712637ccd017fed1a567b93",
+    "hashes_verified": true
+  },
+  "files": {
+    "earthchem_export_jul14_26_14620.csv": 52081670,
+    "earthchem_export_jul14_26_14620_sample_metadata.csv": 5592324,
+    "earthchem_export_jul14_26_14620.txt": 3002
+  },
+  "header": {
+    "columns": 1176,
+    "unique_columns": 1176,
+    "duplicate_column_names": [],
+    "all_target_features_present": true,
+    "missing_target_features": [],
+    "missing_key_metadata": []
+  },
+  "main_analysis_table": {
+    "rows": 22680,
+    "unique_sample_urls": 7668,
+    "unique_normalized_sample_names": 8500,
+    "unique_citation_urls": 431,
+    "exact_duplicate_rows": 32,
+    "exact_duplicate_row_pct": 0.141093,
+    "duplicate_composite_analysis_keys": 354,
+    "duplicate_composite_analysis_key_pct": 1.560847,
+    "silica_numeric_rows": 5309,
+    "silica_40_55_rows": 5251,
+    "silica_40_55_pct_of_numeric": 98.9075,
+    "category_counts": {
+      "Data Compilation": {
+        "PetDB": 22680
+      },
+      "Analysis Type": {
+        "Rock Analysis": 22680
+      },
+      "Analyzed Material": {
+        "WHOLE ROCK": 22680
+      },
+      "Sample Type": {
+        "igneous:volcanic:mafic": 22680
+      },
+      "Sample SubType": {
+        "BASALT": 22680
+      }
+    }
+  },
+  "sample_metadata_table": {
+    "rows": 22680,
+    "columns": 44,
+    "unique_normalized_sample_names": 8500,
+    "duplicate_normalized_sample_name_rows": 14180,
+    "completeness": {
+      "Analyzed Sample Name": {
+        "non_null": 22270,
+        "non_null_pct": 98.1922
+      },
+      "Latitude": {
+        "non_null": 22680,
+        "non_null_pct": 100.0
+      },
+      "Longitude": {
+        "non_null": 22680,
+        "non_null_pct": 100.0
+      },
+      "Tectonic Setting": {
+        "non_null": 22680,
+        "non_null_pct": 100.0
+      },
+      "Rock Classification": {
+        "non_null": 22680,
+        "non_null_pct": 100.0
+      },
+      "Rock Subtype/Descriptor": {
+        "non_null": 22680,
+        "non_null_pct": 100.0
+      },
+      "Data Compilation": {
+        "non_null": 22680,
+        "non_null_pct": 100.0
+      }
+    },
+    "tectonic_setting_counts": {
+      "SPREADING CENTER": 22388,
+      "FRACTURE ZONE,SPREADING CENTER": 140,
+      "SEAMOUNT,SPREADING CENTER": 58,
+      "OFF-AXIS SPREADING CENTER,SPREADING CENTER": 31,
+      "OLD OCEANIC CRUST,SPREADING CENTER": 20,
+      "OCEAN ISLAND,SPREADING CENTER": 20,
+      "OCEANIC PLATEAU,SPREADING CENTER": 15,
+      "SPREADING CENTER,VOLCANIC ARC": 6,
+      "CONTINENTAL RIFT,SPREADING CENTER": 2
+    },
+    "rock_classification_counts": {
+      "igneous:volcanic:mafic": 22680
+    },
+    "rock_subtype_counts": {
+      "BASALT": 22680
+    },
+    "sample_alteration_counts": {
+      "FRESH": 6422,
+      "SLIGHTLY ALTERED": 675,
+      "MODERATELY ALTERED": 410,
+      "F": 203,
+      "EXTENSIVELY ALTERED": 164,
+      "ALMOST COMPLETELY ALTERED": 116,
+      "TOTALLY ALTERED": 32,
+      "M": 3
+    },
+    "main_name_overlap": 8500,
+    "row_aligned_name_match_count": 22680,
+    "row_aligned_name_match_pct": 100.0,
+    "row_aligned_coordinate_match_count": 22680,
+    "row_aligned_coordinate_match_pct": 100.0,
+    "exclusive_spreading_center_sample_urls": 7557,
+    "mixed_or_secondary_setting_sample_urls": 111,
+    "unknown_setting_sample_urls": 0,
+    "tectonic_linkage_method": "row-aligned metadata after 100% normalized-name and coordinate verification",
+    "name_linkage_sensitivity": {
+      "exclusive_spreading_center_sample_urls": 7511,
+      "mixed_or_secondary_setting_sample_urls": 106,
+      "unknown_setting_sample_urls": 51,
+      "normalized_names_linked_to_multiple_sample_urls": 160,
+      "sample_urls_affected_by_ambiguous_names": 335,
+      "method": "normalized sample-name mapping without row alignment"
+    }
+  },
+  "ui_export_summary": {
+    "reported_rows": 22786,
+    "reported_samples": 7721,
+    "exported_rows": 22680,
+    "unique_sample_urls": 7668,
+    "row_difference": 106,
+    "sample_difference": 53
+  },
+  "primary_filter_values_consistent_with_query": true,
+  "tectonic_filter_is_inclusive_not_exclusive": true,
+  "intended_model_grain": "one normalized sample after within-sample aggregation",
+  "raw_grain": "one exported analysis/batch row; multiple rows may map to one sample",
+  "license_audit": {
+    "browser_terms": "CC BY-SA 4.0",
+    "bundle_terms": "CC BY 4.0",
+    "bundle_mentions_astromaterials_not_petdb": true,
+    "conservative_project_policy": "Treat the export as CC BY-SA 4.0, cite PetDB/EarthChem and every contributing publication, and preserve the downloaded terms file."
+  },
+  "quality_status": "share_with_caveats",
+  "quality_caveats": [
+    "Raw rows are repeated analyses rather than independent rock samples.",
+    "Target-element coverage is sparse and must be profiled at sample level.",
+    "The downloaded terms text and browser license label are inconsistent; use the stricter license.",
+    "PetDB disclaims analytical accuracy; method, citation, alteration, and replicate metadata must be retained."
+  ]
+}

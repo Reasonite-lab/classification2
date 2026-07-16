@@ -1,0 +1,136 @@
+{
+  "feature_contract": [
+    "SIO2(WT%)",
+    "TIO2(WT%)",
+    "AL2O3(WT%)",
+    "FEOT(WT%)",
+    "CAO(WT%)",
+    "MGO(WT%)",
+    "MNO(WT%)",
+    "K2O(WT%)",
+    "NA2O(WT%)",
+    "P2O5(WT%)",
+    "V(PPM)",
+    "CR(PPM)",
+    "NI(PPM)",
+    "RB(PPM)",
+    "SR(PPM)",
+    "Y(PPM)",
+    "ZR(PPM)",
+    "NB(PPM)",
+    "LA(PPM)",
+    "CE(PPM)",
+    "ND(PPM)",
+    "TH(PPM)"
+  ],
+  "publication_overlap_checks": {
+    "pangaea_922011_publication_detected_in_petdb": false,
+    "rgr_publication_detected_in_petdb": false
+  },
+  "pangaea_922011": {
+    "source_file": "data\\raw\\external_candidates\\pangaea_922011.tsv",
+    "bytes": 36374,
+    "sha256": "b9c72023f63745a640a607db0bd246fe3ba172d964c5232144e42884e7beb47b",
+    "dataset_doi": "10.1594/PANGAEA.922011",
+    "publication_doi": "10.1029/2020GC008946",
+    "license": "CC BY",
+    "header_contains_dataset_citation": true,
+    "header_contains_publication_doi": true,
+    "whole_rock_n": 33,
+    "arc_front_n": 12,
+    "back_arc_transition_n": 21,
+    "exact_name_collision_n": 4,
+    "short_ambiguous_collision_n": 4,
+    "collision_samples": [
+      "E15",
+      "E16",
+      "E38",
+      "E70"
+    ],
+    "feature_nonmissing": {
+      "SIO2(WT%)": 33,
+      "TIO2(WT%)": 33,
+      "AL2O3(WT%)": 33,
+      "FEOT(WT%)": 33,
+      "CAO(WT%)": 33,
+      "MGO(WT%)": 33,
+      "MNO(WT%)": 33,
+      "K2O(WT%)": 33,
+      "NA2O(WT%)": 33,
+      "P2O5(WT%)": 33,
+      "V(PPM)": 33,
+      "CR(PPM)": 33,
+      "NI(PPM)": 33,
+      "RB(PPM)": 33,
+      "SR(PPM)": 33,
+      "Y(PPM)": 33,
+      "ZR(PPM)": 33,
+      "NB(PPM)": 33,
+      "LA(PPM)": 33,
+      "CE(PPM)": 32,
+      "ND(PPM)": 33,
+      "TH(PPM)": 33
+    },
+    "major_total_reported_range": [
+      98.34,
+      99.05
+    ],
+    "loi_range": [
+      -0.23,
+      1.4
+    ],
+    "fe_mapping": "PANGAEA 'Fe oxide [%]' is mapped to FEOT; retain this source-field mapping as a cross-laboratory harmonization caveat."
+  },
+  "rio_grande_rift": {
+    "source_file": "data\\raw\\external_candidates\\ggge20719-sup-0002-2014GC005649-ts01.xlsx",
+    "bytes": 35455,
+    "sha256": "094248e2e89e8654d50e6b9a6587f9ef6effa33e3135b8ba6115693172edd1c9",
+    "publication_doi": "10.1002/2014GC005649",
+    "publisher_table": "Table S1",
+    "workbook_sheet": "Table 1",
+    "natural_whole_rock_n": 29,
+    "strict_silica_40_55_model_ready_n": 28,
+    "silica_excluded_samples": [
+      {
+        "sample_name": "EB06-7B",
+        "SIO2(WT%)": 55.58964518524293
+      }
+    ],
+    "exact_name_collision_n": 0,
+    "feature_nonmissing": {
+      "SIO2(WT%)": 29,
+      "TIO2(WT%)": 29,
+      "AL2O3(WT%)": 29,
+      "FEOT(WT%)": 29,
+      "CAO(WT%)": 29,
+      "MGO(WT%)": 29,
+      "MNO(WT%)": 29,
+      "K2O(WT%)": 29,
+      "NA2O(WT%)": 29,
+      "P2O5(WT%)": 29,
+      "V(PPM)": 29,
+      "CR(PPM)": 29,
+      "NI(PPM)": 29,
+      "RB(PPM)": 29,
+      "SR(PPM)": 29,
+      "Y(PPM)": 29,
+      "ZR(PPM)": 29,
+      "NB(PPM)": 29,
+      "LA(PPM)": 29,
+      "CE(PPM)": 29,
+      "ND(PPM)": 29,
+      "TH(PPM)": 29
+    },
+    "normalized_major_total_range": [
+      99.99997968251076,
+      100.00002015515028
+    ],
+    "analyzed_total_range": [
+      95.29053,
+      100.65746
+    ],
+    "major_note": "The workbook reports normalized major elements and a separate analyzed total. Model features use the normalized values; analyzed total is retained for QC."
+  },
+  "deduplication_policy": "Require publication-title/DOI independence from PetDB. Exact normalized sample names are also checked; short names such as E15 are treated as ambiguous collisions when PetDB coordinates and citations identify a different province.",
+  "label_policy": "Erromango and Vulcan Seamount are ARC-front tests. Vate Trough is retained as BACK_ARC_TRANSITION and is never scored as ARC or MORB. Rio Grande Rift and Jemez Lineament basalt samples are CIB, with the project's SiO2=40-55 wt% gate."
+}

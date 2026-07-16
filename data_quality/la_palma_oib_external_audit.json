@@ -1,0 +1,49 @@
+{
+  "source_file": "data\\raw\\external_candidates\\1-s2.0-S0012821X22004290-mmc2.xlsx",
+  "bytes": 94461,
+  "sha256": "d9d7630fb745f3c66814ddbe462a417813a8d8a42cbe894c32c0412ec952877b",
+  "publication_doi": "10.1016/j.epsl.2022.117793",
+  "license": "CC BY 4.0",
+  "workbook_sheet": "Table S1",
+  "raw_lava_columns_after_replicate_and_bomb_exclusion": 45,
+  "excluded_replicate_columns": 10,
+  "excluded_bomb_columns": 4,
+  "model_ready_common22": 39,
+  "feature_nonmissing": {
+    "SIO2(WT%)": 45,
+    "TIO2(WT%)": 45,
+    "AL2O3(WT%)": 45,
+    "FEOT(WT%)": 45,
+    "CAO(WT%)": 45,
+    "MGO(WT%)": 45,
+    "MNO(WT%)": 45,
+    "K2O(WT%)": 45,
+    "NA2O(WT%)": 45,
+    "P2O5(WT%)": 45,
+    "V(PPM)": 39,
+    "CR(PPM)": 39,
+    "NI(PPM)": 39,
+    "RB(PPM)": 39,
+    "SR(PPM)": 39,
+    "Y(PPM)": 39,
+    "ZR(PPM)": 39,
+    "NB(PPM)": 39,
+    "LA(PPM)": 39,
+    "CE(PPM)": 39,
+    "ND(PPM)": 39,
+    "TH(PPM)": 39
+  },
+  "exact_name_collision_n": 0,
+  "publication_detected_in_petdb": false,
+  "reported_fe2o3_major_total_range": [
+    98.58494999999999,
+    100.6676
+  ],
+  "feot_contract_major_total_range": [
+    97.24369283999998,
+    99.29849225000001
+  ],
+  "fe_harmonization": "The source reports total iron as Fe2O3. Convert to total Fe as FeO using FeOT = 0.8998 * Fe2O3T before applying the PetDB feature contract.",
+  "selection_policy": "Use primary analyses of bulk-rock lavas only. Exclude ten replicate columns, four bomb columns, tephra/ash/lapilli, xenopumice and reference materials.",
+  "scope_caveat": "The retained samples form a time series from one 2021 eruption and test transfer to the Canary ocean-island setting, not province-level independence."
+}

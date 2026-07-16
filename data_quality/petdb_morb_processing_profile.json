@@ -1,0 +1,129 @@
+{
+  "dataset": "PetDB 2.0 MORB sample-level cohort",
+  "version": "0.1",
+  "source_export_id": "earthchem_export_jul14_26_14620",
+  "raw_analysis_rows": 22680,
+  "exact_duplicate_rows_removed": 32,
+  "analysis_rows_after_exact_deduplication": 22648,
+  "sample_urls": 7668,
+  "row_linkage": {
+    "normalized_name_matches": 22680,
+    "coordinate_matches": 22680,
+    "method": "row alignment accepted only after 100% normalized-name and coordinate agreement"
+  },
+  "tectonic_linkage": {
+    "exclusive_spreading_center": 7557,
+    "mixed_or_secondary": 111,
+    "name_only_sensitivity_exclusive": 7511,
+    "primary_method": "verified row linkage",
+    "sensitivity_method": "normalized-name-only mapping"
+  },
+  "cohorts": {
+    "strict_candidate": 4249,
+    "model_ready_broad": 3650,
+    "model_ready_immobile": 2302,
+    "model_ready_broad_no_severe_alteration": 3630,
+    "model_ready_immobile_no_severe_alteration": 2292,
+    "model_ready_broad_major_range_sensitivity": 3630,
+    "model_ready_immobile_major_range_sensitivity": 2284
+  },
+  "iron_harmonization": {
+    "target": "total iron as FeO equivalent",
+    "row_precedence": [
+      "reported FeOT",
+      "0.8998 * reported Fe2O3T",
+      "reported FeO + 0.8998 * reported Fe2O3"
+    ],
+    "sample_aggregation": "median across non-duplicate analysis rows"
+  },
+  "replicate_policy": {
+    "aggregation": "median by stable Sample URL",
+    "discordance_major": "at least two values, >0.1 wt% absolute and >10% relative range",
+    "discordance_trace": "at least two values, >1 ppm absolute and >20% relative range",
+    "discordance_is_exclusion": false
+  },
+  "major_component_range_sensitivity": {
+    "ranges": {
+      "TIO2(WT%)": [
+        0.0,
+        8.0
+      ],
+      "AL2O3(WT%)": [
+        5.0,
+        30.0
+      ],
+      "FEOT(WT%)": [
+        2.0,
+        25.0
+      ],
+      "CAO(WT%)": [
+        2.0,
+        20.0
+      ],
+      "MGO(WT%)": [
+        0.5,
+        40.0
+      ],
+      "MNO(WT%)": [
+        0.0,
+        1.0
+      ],
+      "K2O(WT%)": [
+        0.0,
+        10.0
+      ],
+      "NA2O(WT%)": [
+        0.0,
+        10.0
+      ],
+      "P2O5(WT%)": [
+        0.0,
+        5.0
+      ]
+    },
+    "is_primary_exclusion": false,
+    "purpose": "Flag gross component outliers without changing the preregistered primary total-sum contract"
+  },
+  "nonpositive_replacements": {
+    "SIO2(WT%)": 0,
+    "TIO2(WT%)": 0,
+    "AL2O3(WT%)": 0,
+    "CAO(WT%)": 0,
+    "MGO(WT%)": 0,
+    "MNO(WT%)": 0,
+    "K2O(WT%)": 0,
+    "NA2O(WT%)": 0,
+    "P2O5(WT%)": 0,
+    "V(PPM)": 0,
+    "CR(PPM)": 0,
+    "NI(PPM)": 0,
+    "RB(PPM)": 4,
+    "SR(PPM)": 0,
+    "Y(PPM)": 0,
+    "ZR(PPM)": 0,
+    "NB(PPM)": 0,
+    "LA(PPM)": 0,
+    "CE(PPM)": 0,
+    "ND(PPM)": 0,
+    "SM(PPM)": 0,
+    "EU(PPM)": 0,
+    "YB(PPM)": 0,
+    "LU(PPM)": 0,
+    "HF(PPM)": 0,
+    "TA(PPM)": 0,
+    "TH(PPM)": 0,
+    "U(PPM)": 0
+  },
+  "bibliography_rows": 431,
+  "outputs": {
+    "sample_data": "data\\processed\\petdb_morb_v0_1.parquet",
+    "sample_data_portable_csv": "data\\processed\\petdb_morb_v0_1.csv.gz",
+    "coverage": "reports/data_quality/petdb_morb_sample_feature_coverage.csv",
+    "qc_flow": "reports/data_quality/petdb_morb_qc_flow.csv",
+    "bibliography": "references\\petdb_morb_bibliography.csv"
+  },
+  "modeling_gate": {
+    "status": "blocked_for_final_four_class_claims_but_not_for_processing",
+    "reason": "PetDB currently contributes only MORB while the processed GEOROC cohort contributes ARC/CIB/OIB; in a naive pooled four-class dataset, class and database source are perfectly confounded. Collect non-MORB PetDB classes or an additional independent MORB source before claiming source-robust four-class performance."
+  }
+}

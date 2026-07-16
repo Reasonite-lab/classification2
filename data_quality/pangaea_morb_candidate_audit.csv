@@ -1,0 +1,4 @@
+dataset_id,doi,publication_doi,setting,license,analysis_rows,unique_sample_names,petdb_exact_normalized_name_overlap,shared_primary_features,samples_with_at_least_10_shared_features,publication_citation_detected_in_petdb,bytes,sha256
+PANGAEA.956077,10.1594/PANGAEA.956077,10.1029/2022GC010788,Reykjanes Ridge,CC BY 4.0,1770,169,0,10,170,True,362212,44fa35e5e2e0198531edf85ed6b1dfd1383da6674835d36ff3257c23e7dbf076
+PANGAEA.727391,10.1594/PANGAEA.727391,10.1093/petrology/egm068,Mid-Atlantic Ridge near Ascension Island,CC BY 3.0,19,19,0,10,16,False,15914,8c9b93b961794edeaf626d04cf9bdee435259954cdaaaaf1a28df419ce27f55b
+PANGAEA.707361,10.1594/PANGAEA.707361,10.1016/0016-7037(80)90209-4,"DSDP Hole 24-238, Indian Ocean",CC BY 3.0,2,2,0,12,2,False,2453,d1e16a4368390273efa337c2250c148189af997676e809bde3208d9b87f71298

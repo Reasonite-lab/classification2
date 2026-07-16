@@ -1,0 +1,50 @@
+{
+  "source_file": "data\\raw\\external_candidates\\445_2025_1825_MOESM1_ESM.xlsx",
+  "bytes": 58764,
+  "sha256": "25ae9c4c5f3521c976ab82e81358521e2b3141ad98f9a8a212c32e1b1a60975e",
+  "publication_doi": "10.1007/s00445-025-01825-0",
+  "license": "CC BY 4.0",
+  "workbook_sheet": "Table S1",
+  "mauna_loa_2022_samples": 16,
+  "model_ready_common22": 16,
+  "feature_nonmissing": {
+    "SIO2(WT%)": 16,
+    "TIO2(WT%)": 16,
+    "AL2O3(WT%)": 16,
+    "FEOT(WT%)": 16,
+    "CAO(WT%)": 16,
+    "MGO(WT%)": 16,
+    "MNO(WT%)": 16,
+    "K2O(WT%)": 16,
+    "NA2O(WT%)": 16,
+    "P2O5(WT%)": 16,
+    "V(PPM)": 16,
+    "CR(PPM)": 16,
+    "NI(PPM)": 16,
+    "RB(PPM)": 16,
+    "SR(PPM)": 16,
+    "Y(PPM)": 16,
+    "ZR(PPM)": 16,
+    "NB(PPM)": 16,
+    "LA(PPM)": 16,
+    "CE(PPM)": 16,
+    "ND(PPM)": 16,
+    "TH(PPM)": 16
+  },
+  "exact_name_collision_n": 0,
+  "publication_detected_in_petdb": false,
+  "reported_fe2o3_total_range": [
+    12.292086430236107,
+    12.7
+  ],
+  "converted_feot_range": [
+    11.06041936992645,
+    11.42746
+  ],
+  "reported_fe2o3_major_total_range": [
+    99.99999999999994,
+    100.00000000000004
+  ],
+  "fe_harmonization": "The source reports total iron as Fe2O3. Convert to total Fe as FeO using FeOT = 0.8998 * Fe2O3T before applying the PetDB feature contract.",
+  "scope_caveat": "Sixteen samples form a time series from one 2022 eruption and are not independent OIB provinces. They test recent Mauna Loa transfer only."
+}

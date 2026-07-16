@@ -1,0 +1,30 @@
+{
+  "source_dataset_doi": "10.25625/2JETOA",
+  "source_version": "2026-06-01",
+  "source_license": "CC BY-SA 4.0",
+  "source_index": "data\\interim\\georoc_basalt_core_index.csv.gz",
+  "location_pattern": "BIG PINE VOLCANIC FIELD",
+  "strict_model_ready_common18": 70,
+  "publication_group_counts": {
+    "11949": 59,
+    "20648": 10,
+    "1754|3548|3538|3304": 1
+  },
+  "publication_overlap_petdb_n": 0,
+  "exact_sample_name_collision_n": 0,
+  "petdb_location_overlap_n": 0,
+  "latitude_range": [
+    36.8383,
+    37.1069
+  ],
+  "longitude_range": [
+    -118.3129,
+    -118.1619
+  ],
+  "major_total_range": [
+    96.69539,
+    100.67741999999998
+  ],
+  "selection_policy": "GEOROC whole-rock volcanic basalt candidates assigned to RIFT VOLCANICS and Big Pine volcanic field; SiO2 40-55 wt%, positive complete common18, and harmonized major total 90-105 wt%.",
+  "scope_caveat": "This is an independently sourced province-level GEOROC cohort compiled from six publication groups, not a new single-study analytical campaign."
+}

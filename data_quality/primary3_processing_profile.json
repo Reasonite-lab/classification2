@@ -1,0 +1,20 @@
+{
+  "dataset_version": "georoc_primary3_v0_1",
+  "input_rows": 109882,
+  "strict_in_scope_rows": 65146,
+  "exact_duplicates_removed": 0,
+  "major_incomplete_or_implausible_removed": 3033,
+  "processed_rows": 62113,
+  "ambiguous_citation_sets_n": 44,
+  "rows_in_ambiguous_citation_sets": 748,
+  "model_ready_broad_rows": 54012,
+  "model_ready_immobile_rows": 43005,
+  "citation_sets_n": 6702,
+  "location_roots_n": 207,
+  "citation_overlap_components_n": 3811,
+  "citation_overlap_ambiguous_components_n": 65,
+  "largest_citation_overlap_component_rows": 11975,
+  "used_citation_ids_n": 5161,
+  "bibliography_resolved_ids_n": 5075,
+  "bibliography_missing_ids_n": 86
+}

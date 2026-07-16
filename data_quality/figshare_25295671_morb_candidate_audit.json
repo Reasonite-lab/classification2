@@ -1,0 +1,63 @@
+{
+  "dataset_doi": "10.6084/m9.figshare.25295671.v1",
+  "dataset_url": "https://figshare.com/articles/dataset/Supplementary_Tables_S1_to_S6_xlsx/25295671",
+  "license": "CC BY 4.0",
+  "raw_sha256": "82dcf0d827dab645e2de8c8587fbf58921ac3a5b2123364ae7afc199819141bf",
+  "later_mendeley_dataset": {
+    "doi": "10.17632/fntfnf92tg.1",
+    "title": "Cadmium isotope compositions of basalts from the East Pacific Rise and Southwest Indian Ridge: Implications for magma differentiation and mantle heterogeneity",
+    "relationship": "A later repository record supplies the study title, but no journal article DOI was located as of the audit date."
+  },
+  "feature_map": {
+    "SIO2(WT%)": "SiO2",
+    "TIO2(WT%)": "TiO2",
+    "AL2O3(WT%)": "Al2O3",
+    "FEOT(WT%)": "FeOt",
+    "CAO(WT%)": "CaO",
+    "MGO(WT%)": "MgO",
+    "MNO(WT%)": "MnO",
+    "K2O(WT%)": "K2O",
+    "NA2O(WT%)": "Na2O",
+    "P2O5(WT%)": "P2O5",
+    "RB(PPM)": "Rb",
+    "SR(PPM)": "Sr",
+    "Y(PPM)": "Y",
+    "ZR(PPM)": "Zr",
+    "NB(PPM)": "Nb",
+    "LA(PPM)": "La",
+    "CE(PPM)": "Ce",
+    "ND(PPM)": "Nd"
+  },
+  "petdb_publication_title_detected": false,
+  "epr_policy": "Exclude from strict external evidence because workbook Table S1 states that EPR data are from Li et al. (2019); retain as sensitivity only.",
+  "swir_policy": "Treat as repository-original provisional external data because no secondary source note is attached and no exact normalized sample-name overlap was found. Do not describe it as publication-independent until a journal DOI is linked.",
+  "name_overlap_scope": "Exact normalized sample-name comparison only; it cannot exclude renamed or aliased samples.",
+  "summary": [
+    {
+      "source_region": "East Pacific Rise",
+      "n": 8,
+      "model_ready_common18": 8,
+      "strict_external_candidate": 0,
+      "petdb_exact_normalized_name_overlap": 0,
+      "complete_major10": 8,
+      "median_observed_feature_n": 18.0,
+      "major_total_min": 97.72409999999999,
+      "major_total_max": 98.8438,
+      "loi_abs_max": 0.8799120087992008,
+      "provenance_tier": "secondary_literature_exclude_strict"
+    },
+    {
+      "source_region": "Southwest Indian Ridge",
+      "n": 36,
+      "model_ready_common18": 36,
+      "strict_external_candidate": 36,
+      "petdb_exact_normalized_name_overlap": 0,
+      "complete_major10": 36,
+      "median_observed_feature_n": 18.0,
+      "major_total_min": 96.935,
+      "major_total_max": 99.207,
+      "loi_abs_max": 1.8,
+      "provenance_tier": "repository_original_provisional"
+    }
+  ]
+}

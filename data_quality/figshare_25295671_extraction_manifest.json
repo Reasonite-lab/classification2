@@ -1,0 +1,27 @@
+{
+  "dataset_doi": "10.6084/m9.figshare.25295671.v1",
+  "figshare_article_id": 25295671,
+  "license": "CC BY 4.0",
+  "raw_file": "data/raw/figshare_25295671/Supplementary_Tables_S1_to_S6.xlsx",
+  "raw_bytes": 58126,
+  "raw_md5": "a9a814369a577fb3acef128148d785bb",
+  "raw_sha256": "82dcf0d827dab645e2de8c8587fbf58921ac3a5b2123364ae7afc199819141bf",
+  "workbook_sheet": "Table S1",
+  "workbook_range": "A1:AN49",
+  "title_cell": "Table S1 Major and trace elements of MORB samples from East Pacific Rise and Southwest Indian Ridge",
+  "header_excel_row": 2,
+  "extracted_sample_rows": 44,
+  "region_counts": {
+    "East Pacific Rise": 8,
+    "Southwest Indian Ridge": 36
+  },
+  "epr_provenance_note": "a Data for EPR MORB are from Li et al. (2019)",
+  "output_file": "data/interim/figshare_25295671_table_s1.csv",
+  "output_sha256": "1b86afd5e9992f6ec3c37aea19c26142530c4e68e84ccd702ab01d27de3e63de",
+  "extraction_policy": [
+    "Retain only natural sample rows from Table S1.",
+    "Preserve the reported FeOt field; do not substitute Fe2O3.",
+    "Attach the section heading as source_region and preserve the Excel row number.",
+    "Do not treat modeled values in Tables S2-S6 as observations."
+  ]
+}

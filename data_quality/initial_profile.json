@@ -1,0 +1,21 @@
+{
+  "source": "GEOROC Compilation: Rock Types",
+  "persistent_id": "doi:10.25625/2JETOA",
+  "source_version": "files generated 2026-06-01",
+  "files": 9,
+  "rows": 109882,
+  "columns_raw": 171,
+  "unique_id_missing_n": 10277,
+  "unique_id_duplicate_nonmissing_rows_n": 0,
+  "exact_duplicate_rows_n": 4899,
+  "tectonic_setting_missing_n": 10468,
+  "whole_rock_n": 92848,
+  "volcanic_n": 99516,
+  "basalt_name_n": 99235,
+  "silica_40_55_n": 76915,
+  "strict_candidate_n": 72180,
+  "alteration_nonempty_n": 7572,
+  "core_numeric_median_available": 24.0,
+  "core_numeric_p10_available": 0.0,
+  "core_numeric_p90_available": 42.0
+}

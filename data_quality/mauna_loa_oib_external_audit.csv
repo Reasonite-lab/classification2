@@ -1,0 +1,2 @@
+candidate,target,natural_rows,strict_model_ready_rows,publication_overlap_petdb,exact_name_collision_n,shared_feature_max,status
+Mauna Loa 2022 Table S1,OIB,16,16,False,0,22,strict_external_candidate
